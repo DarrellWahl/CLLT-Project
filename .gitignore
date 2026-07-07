@@ -1,0 +1,13 @@
+# Python virtual environments
+.venv/
+.venv311/
+venv/
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# macOS
+.DS_Store
