@@ -1,0 +1,208 @@
+[
+  {
+    "path": "scripts/__init__.py",
+    "inputs": [],
+    "outputs": [],
+    "literals": [],
+    "notes": []
+  },
+  {
+    "path": "scripts/build_website.py",
+    "inputs": [
+      "sign_mappings_clean.json"
+    ],
+    "outputs": [],
+    "literals": [
+      "sign_mappings_clean.json",
+      "signs.json"
+    ],
+    "notes": []
+  },
+  {
+    "path": "scripts/calibrate_grid.py",
+    "inputs": [
+      "assets/models/config/page_1_layout.json",
+      "assets/png/pages"
+    ],
+    "outputs": [],
+    "literals": [
+      "--config",
+      ".png",
+      "Create or update a page grid calibration config.",
+      "Layout config path.",
+      "Page image name, e.g. page_1.png",
+      "assets/models/config/page_1_layout.json",
+      "assets/png/pages"
+    ],
+    "notes": []
+  },
+  {
+    "path": "scripts/detect_signs.py",
+    "inputs": [
+      "assets/png/pages/page_1.png"
+    ],
+    "outputs": [],
+    "literals": [
+      "assets/png/pages/page_1.png"
+    ],
+    "notes": []
+  },
+  {
+    "path": "scripts/extract_pages.py",
+    "inputs": [
+      "assets/pdf/Road Traffic Signs.pdf",
+      "assets/png/pages"
+    ],
+    "outputs": [],
+    "literals": [
+      ".png",
+      "assets/pdf/Road Traffic Signs.pdf",
+      "assets/png/pages"
+    ],
+    "notes": []
+  },
+  {
+    "path": "scripts/extract_pipeline.py",
+    "inputs": [],
+    "outputs": [
+      "metadata_dir"
+    ],
+    "literals": [
+      ".png",
+      "_contact_sheet.png",
+      "_signs.csv",
+      "_signs.json",
+      "_stats.json",
+      "_verification.png",
+      "config",
+      "extraction_config.json",
+      "metadata_dir"
+    ],
+    "notes": []
+  },
+  {
+    "path": "scripts/extract_signs.py",
+    "inputs": [
+      "assets/png/pages"
+    ],
+    "outputs": [
+      "Saved metadata CSV with ",
+      "output/legend.json",
+      "output/signs",
+      "output/signs_metadata.csv"
+    ],
+    "literals": [
+      ".png",
+      "Saved metadata CSV with ",
+      "assets/png/pages",
+      "output/legend.json",
+      "output/signs",
+      "output/signs_metadata.csv",
+      "page_5.png"
+    ],
+    "notes": []
+  },
+  {
+    "path": "scripts/grid_analysis.py",
+    "inputs": [
+      "Example config: assets/models/config/page_1_layout.json",
+      "assets/models/config/page_1_layout.json",
+      "assets/png/pages"
+    ],
+    "outputs": [],
+    "literals": [
+      "--config",
+      "Create a layout config with the page dimensions and one or more grid regions.",
+      "Example config: assets/models/config/page_1_layout.json",
+      "No layout config found at ",
+      "Page image name, e.g. page_1.png",
+      "Path to page layout config.",
+      "Use scripts/calibrate_grid.py to generate or update that config.",
+      "assets/models/config/page_1_layout.json",
+      "assets/png/pages"
+    ],
+    "notes": []
+  },
+  {
+    "path": "scripts/map_signs.py",
+    "inputs": [
+      "output/sign_legend.json"
+    ],
+    "outputs": [
+      " sign mappings to output/sign_mappings.json",
+      "output/sign_legend.json",
+      "output/sign_mappings.json",
+      "output/signs_metadata.csv"
+    ],
+    "literals": [
+      " sign mappings to output/sign_mappings.json",
+      "output/sign_legend.json",
+      "output/sign_mappings.json",
+      "output/signs_metadata.csv"
+    ],
+    "notes": []
+  },
+  {
+    "path": "scripts/models/__init__.py",
+    "inputs": [],
+    "outputs": [],
+    "literals": [],
+    "notes": []
+  },
+  {
+    "path": "scripts/models/calibration.py",
+    "inputs": [],
+    "outputs": [
+      "metadata"
+    ],
+    "literals": [
+      "metadata"
+    ],
+    "notes": []
+  },
+  {
+    "path": "scripts/models/grid_def.py",
+    "inputs": [],
+    "outputs": [
+      "metadata"
+    ],
+    "literals": [
+      "metadata"
+    ],
+    "notes": []
+  },
+  {
+    "path": "scripts/parse_legend.py",
+    "inputs": [
+      "assets/pdf/Road Traffic Signs.pdf",
+      "output/sign_legend.json"
+    ],
+    "outputs": [
+      "output/sign_legend.json"
+    ],
+    "literals": [
+      "assets/pdf/Road Traffic Signs.pdf",
+      "output/sign_legend.json"
+    ],
+    "notes": []
+  },
+  {
+    "path": "scripts/preview_grid.py",
+    "inputs": [
+      "assets/models/config/page_1_layout.json",
+      "assets/png/pages",
+      "assets/png/previews/page_1_grid_preview.png"
+    ],
+    "outputs": [],
+    "literals": [
+      "--config",
+      "Generate a visual grid preview for a page layout configuration.",
+      "Page layout configuration file.",
+      "assets/models/config/page_1_layout.json",
+      "assets/png/pages",
+      "assets/png/previews/page_1_grid_preview.png",
+      "page_1.png"
+    ],
+    "notes": []
+  }
+]

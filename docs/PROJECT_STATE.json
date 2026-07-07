@@ -1,0 +1,154 @@
+{
+  "document": {
+    "name": "PROJECT_STATE.json",
+    "version": "1.0.0",
+    "snapshot_utc": "2026-07-07T14:15:25Z",
+    "generated_by": "GitHub Copilot (GPT-5.3-Codex)",
+    "purpose": "Machine-readable state snapshot for CLLT extraction + website project"
+  },
+  "project": {
+    "name": "CLLT-Project",
+    "platform": "macOS",
+    "languages": [
+      "Python",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "runtime": {
+      "python_default": "3.14 (environment-dependent)",
+      "python_ocr_env": ".venv311 (Python 3.11)",
+      "website_host": "python -m http.server 8000"
+    }
+  },
+  "repository_inventory": {
+    "scan_basis": "docs/.scan_snapshot.json",
+    "total_files": 4799,
+    "python_files": 14,
+    "javascript_files": 1,
+    "json_files": 19,
+    "csv_files": 5,
+    "image_files": 4749,
+    "top_level_distribution": {
+      "assets": 3519,
+      "website": 1193,
+      "output": 58,
+      "scripts": 14,
+      "metadata": 8,
+      "logs": 5
+    }
+  },
+  "pipeline_outputs": {
+    "source_pages_png": 5,
+    "metadata_json_files": 4,
+    "metadata_csv_files": 4,
+    "logs_json_files": 5,
+    "website_dataset_rows": 1090,
+    "website_dataset_coded_rows": 258,
+    "website_dataset_uncoded_rows": 832,
+    "legacy_clean_mapping_rows": 89,
+    "legend_entries": 168,
+    "per_page_exported": {
+      "page_1": 317,
+      "page_2": 208,
+      "page_3": 323,
+      "page_4": 242,
+      "page_5": 0
+    },
+    "assets_signs_distribution": {
+      "total": 3495,
+      "page1": 506,
+      "page2": 208,
+      "page3": 732,
+      "page4": 629,
+      "page5": 1420
+    },
+    "website_signs_distribution": {
+      "total_png": 1182,
+      "sign_named": 89,
+      "unknown_named": 1093,
+      "tmp_bottom_png": 3
+    }
+  },
+  "components": {
+    "extractor": {
+      "entrypoint": "scripts/extract_pipeline.py",
+      "status": "active",
+      "description": "Deterministic multi-stage sign extraction orchestrator with metadata/stats/verification output"
+    },
+    "website": {
+      "entrypoints": [
+        "website/index.html",
+        "website/app.js",
+        "website/style.css"
+      ],
+      "status": "active",
+      "description": "Static browser for sign library + quiz backed by website/data/signs.json"
+    },
+    "mapping": {
+      "scripts": [
+        "scripts/map_signs.py",
+        "scripts/parse_legend.py"
+      ],
+      "status": "active_with_quality_gaps",
+      "description": "Legend parsing and sign-to-code mapping tools"
+    },
+    "grid_model": {
+      "modules": [
+        "scripts/models/grid_def.py",
+        "scripts/models/calibration.py"
+      ],
+      "status": "active",
+      "description": "Structured grid/page calibration model utilities"
+    }
+  },
+  "quality": {
+    "website_performance": "stable_after_batched_rendering",
+    "image_loading": "stable_after_lazy_load_fix",
+    "label_quality": "partial",
+    "ocr_status": "enabled_in_py311_env_only",
+    "qa_coverage": {
+      "functional_ui": "good",
+      "dataset_semantic_validation": "incomplete",
+      "automated_regression_checks": "absent"
+    }
+  },
+  "risks": [
+    {
+      "id": "RISK-001",
+      "title": "OCR label semantic mismatch",
+      "severity": "high",
+      "status": "open"
+    },
+    {
+      "id": "RISK-002",
+      "title": "Multi-directory artifact divergence",
+      "severity": "high",
+      "status": "open"
+    },
+    {
+      "id": "RISK-003",
+      "title": "Frontend cache staleness masking updates",
+      "severity": "medium",
+      "status": "mitigated_by_version_bump"
+    },
+    {
+      "id": "RISK-004",
+      "title": "Temporary files polluting sign corpus",
+      "severity": "medium",
+      "status": "open"
+    }
+  ],
+  "technical_debt": [
+    "No canonical output ownership policy across assets/output/website trees",
+    "No strict dataset schema enforcement and reconciliation step",
+    "No CI-backed quality checks for label confidence and semantic consistency",
+    "Exploratory scripts and production-like scripts are co-located"
+  ],
+  "next_steps": [
+    "Implement strict label validation and reconciliation workflow",
+    "Define canonical artifact directories and deprecate stale outputs",
+    "Add automated consistency checks between metadata, mappings, and website dataset",
+    "Introduce repeatable QA checklist and acceptance thresholds"
+  ]
+}

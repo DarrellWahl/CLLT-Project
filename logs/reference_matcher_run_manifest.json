@@ -1,0 +1,27 @@
+{
+  "run_type": "reference_matcher",
+  "matcher_version": "1.0.0",
+  "contract_version": "1.0.0",
+  "run_at": "2026-07-07T16:00:00Z",
+  "edition_id": "za-rtl-2026-01",
+  "sample_limit": 18,
+  "top_k": 3,
+  "inputs": {
+    "reference_positions": "metadata/reference_map/reference_positions.json",
+    "reference_cells": "metadata/reference_map/reference_cells.json",
+    "manual_editions": "metadata/reference_map/manual_editions.json",
+    "pages": "metadata/reference_map/pages.json",
+    "extracted_metadata_files": [
+      "metadata/page_1_signs.json",
+      "metadata/page_2_signs.json",
+      "metadata/page_3_signs.json",
+      "metadata/page_4_signs.json"
+    ]
+  },
+  "summary": {
+    "approved_reference_positions": 12,
+    "extracted_sample_size": 18,
+    "candidate_count": 54
+  },
+  "output_file": "metadata/reference_map/candidate_assignments_sample.json"
+}

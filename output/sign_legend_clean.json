@@ -1,0 +1,674 @@
+[
+  {
+    "code": "R1",
+    "description": "Stopsign"
+  },
+  {
+    "code": "R1.1",
+    "description": "Stopsign"
+  },
+  {
+    "code": "R1.2",
+    "description": "Stop/Yield"
+  },
+  {
+    "code": "R1.3",
+    "description": "3 -Waystopsign"
+  },
+  {
+    "code": "R1.4",
+    "description": "4 -Waystopsign"
+  },
+  {
+    "code": "R1.5",
+    "description": "Stop /Gosign"
+  },
+  {
+    "code": "R2",
+    "description": "Yieldsign"
+  },
+  {
+    "code": "R2.1",
+    "description": "Yieldtopedestrianssign"
+  },
+  {
+    "code": "R2.2",
+    "description": "Yieldatmini - circlesign"
+  },
+  {
+    "code": "R3",
+    "description": "Noentrysign"
+  },
+  {
+    "code": "R5",
+    "description": "Pedestrianprioritysign"
+  },
+  {
+    "code": "R6",
+    "description": "Yieldtooncomingtrafficsign"
+  },
+  {
+    "code": "R101",
+    "description": "MinimumSpeedsign"
+  },
+  {
+    "code": "R102",
+    "description": "Vehiclesexceedingmassonlysign"
+  },
+  {
+    "code": "R103",
+    "description": "Keepleftsign"
+  },
+  {
+    "code": "R104",
+    "description": "Keeprightsign"
+  },
+  {
+    "code": "R105",
+    "description": "Proceedleftonlysign"
+  },
+  {
+    "code": "R106",
+    "description": "Proceedrightonlysign"
+  },
+  {
+    "code": "R107",
+    "description": "Proceedstraightonlysign"
+  },
+  {
+    "code": "R108",
+    "description": "Turnleftsign"
+  },
+  {
+    "code": "R109",
+    "description": "Turnrightsign"
+  },
+  {
+    "code": "R110",
+    "description": "Pedestriansonlysign"
+  },
+  {
+    "code": "R111",
+    "description": "Pedalcyclesonlysign"
+  },
+  {
+    "code": "R116",
+    "description": "Motorcyclesonlysign"
+  },
+  {
+    "code": "R117",
+    "description": "Motorcarsonlysign"
+  },
+  {
+    "code": "R118",
+    "description": "Taxisonlysign"
+  },
+  {
+    "code": "R119",
+    "description": "Minibusesonlysign"
+  },
+  {
+    "code": "R120",
+    "description": "Midibusonlysign"
+  },
+  {
+    "code": "R121",
+    "description": "Busesonlysign"
+  },
+  {
+    "code": "R122",
+    "description": "Deliveryvehiclesonlysign"
+  },
+  {
+    "code": "R123",
+    "description": "Goodsvehiclesonlysign"
+  },
+  {
+    "code": "R124",
+    "description": "GoodsvehiclesoverindicatedGVMonlysign"
+  },
+  {
+    "code": "R125",
+    "description": "Constructionvehiclesonlysign"
+  },
+  {
+    "code": "R126",
+    "description": "Vehiclesconveyingdangerousgoodsonlysign"
+  },
+  {
+    "code": "R127",
+    "description": "Abnormalvehiclesonlysign"
+  },
+  {
+    "code": "R128",
+    "description": "Rickshawsonlysign"
+  },
+  {
+    "code": "R129",
+    "description": "Tourbusesonlysign"
+  },
+  {
+    "code": "R130",
+    "description": "Agriculturalvehiclesonlysign"
+  },
+  {
+    "code": "R131",
+    "description": "Animal-drawnvehiclesonlysign"
+  },
+  {
+    "code": "R132",
+    "description": "Paytollsign"
+  },
+  {
+    "code": "R133",
+    "description": "Switchheadlampsonsign"
+  },
+  {
+    "code": "R134",
+    "description": "Buses & minibusesonlysign"
+  },
+  {
+    "code": "R135",
+    "description": "Buses & midibusesonlysign"
+  },
+  {
+    "code": "R136",
+    "description": "Buses, midibuses & minibusesonlysign"
+  },
+  {
+    "code": "R137",
+    "description": "Roundaboutsign"
+  },
+  {
+    "code": "R138",
+    "description": "Tramsonlysign"
+  },
+  {
+    "code": "R139",
+    "description": "Buses & tramsonlysign"
+  },
+  {
+    "code": "R140",
+    "description": "Buses, trams & minibusesonlysign"
+  },
+  {
+    "code": "R201",
+    "description": "Speedlimitsign"
+  },
+  {
+    "code": "R202",
+    "description": "Masslimitsign"
+  },
+  {
+    "code": "R203",
+    "description": "Axlemassloadlimitsign"
+  },
+  {
+    "code": "R204",
+    "description": "Heightlimitsign"
+  },
+  {
+    "code": "R205",
+    "description": "Lengthlimitsign"
+  },
+  {
+    "code": "R206",
+    "description": "Excessivenoiseprohibitedsign"
+  },
+  {
+    "code": "R207",
+    "description": "Hitch-hikingprohibitedsign"
+  },
+  {
+    "code": "R208",
+    "description": "Unauthorizedvehiclesprohibitedsign"
+  },
+  {
+    "code": "R209",
+    "description": "Leftturnaheadprohibitedsign"
+  },
+  {
+    "code": "R210",
+    "description": "Rightturnaheadprohibitedsign"
+  },
+  {
+    "code": "R211",
+    "description": "Leftturnprohibitedsign"
+  },
+  {
+    "code": "R212",
+    "description": "Rightturnprohibitedsign"
+  },
+  {
+    "code": "R213",
+    "description": "U-turnprohibitedsign"
+  },
+  {
+    "code": "R214",
+    "description": "Overtakingprohibitedsign"
+  },
+  {
+    "code": "R215",
+    "description": "Overtakingbygoodsvehicleprohibitedsign"
+  },
+  {
+    "code": "R216",
+    "description": "Parkingprohibitedsign"
+  },
+  {
+    "code": "R217",
+    "description": "Stoppingprohibitedsign"
+  },
+  {
+    "code": "R218",
+    "description": "Pedestrianprohibitedsign"
+  },
+  {
+    "code": "R219",
+    "description": "Pedalcycleprohibitedsign"
+  },
+  {
+    "code": "R220",
+    "description": "Pedalcycle & pedestrianprohibitedsign"
+  },
+  {
+    "code": "R222",
+    "description": "Motorcycleprohibitedsign"
+  },
+  {
+    "code": "R223",
+    "description": "Motorcarprohibitedsign"
+  },
+  {
+    "code": "R224",
+    "description": "Taxiprohibitedsign"
+  },
+  {
+    "code": "R225",
+    "description": "Minibusprohibitedsign"
+  },
+  {
+    "code": "R226",
+    "description": "Midibusprohibitedsign"
+  },
+  {
+    "code": "R227",
+    "description": "Busprohibitedsign"
+  },
+  {
+    "code": "R228",
+    "description": "Deliveryvehicleprohibitedsign"
+  },
+  {
+    "code": "R229",
+    "description": "Goodsvehicleprohibitedsign"
+  },
+  {
+    "code": "R230",
+    "description": "GoodsvehicleoverindicatedGVMprohibitedsign"
+  },
+  {
+    "code": "R231",
+    "description": "Constructionvehicleprohibitedsign"
+  },
+  {
+    "code": "R232",
+    "description": "Vehicleconveyingdangerousgoodsprohibitedsign"
+  },
+  {
+    "code": "R233",
+    "description": "Abnormalvehicleprohibitedsign"
+  },
+  {
+    "code": "R234",
+    "description": "Rickshawprohibitedsign"
+  },
+  {
+    "code": "R235",
+    "description": "Tourbusprohibitedsign"
+  },
+  {
+    "code": "R236",
+    "description": "Agriculturalvehicleprohibitedsign"
+  },
+  {
+    "code": "R237",
+    "description": "Animal-drawnvehicleprohibitedsign"
+  },
+  {
+    "code": "R238",
+    "description": "Horses & ridersprohibitedsign"
+  },
+  {
+    "code": "R239",
+    "description": "Widthlimitsign"
+  },
+  {
+    "code": "R240",
+    "description": "Towedvehiclesprohibitedsign"
+  },
+  {
+    "code": "R241",
+    "description": "Hawkersprohibitedsign"
+  },
+  {
+    "code": "R301",
+    "description": "Busreservationsign"
+  },
+  {
+    "code": "R301",
+    "description": "-PBusparkingreservationsign"
+  },
+  {
+    "code": "R302",
+    "description": "Buslanereservationsign"
+  },
+  {
+    "code": "R303",
+    "description": "Buslanereservationbeginssign"
+  },
+  {
+    "code": "R304",
+    "description": "Pedalcyclelanereservationsign"
+  },
+  {
+    "code": "R304",
+    "description": "-PPedalcycleparkingreservationsign"
+  },
+  {
+    "code": "R305",
+    "description": "-PParkingreservationsign"
+  },
+  {
+    "code": "R306",
+    "description": "-PLimitedparkingreservationsign"
+  },
+  {
+    "code": "R307",
+    "description": "Motorcyclereservationsign"
+  },
+  {
+    "code": "R307",
+    "description": "-PMotorcycleparkingreservationsign"
+  },
+  {
+    "code": "R308",
+    "description": "Motorcarreservationsign"
+  },
+  {
+    "code": "R308",
+    "description": "-PMotorcarparkingreservationsign"
+  },
+  {
+    "code": "R309",
+    "description": "Taxireservationsign"
+  },
+  {
+    "code": "R309",
+    "description": "-PTaxiparkingreservationsign"
+  },
+  {
+    "code": "R310",
+    "description": "Minibusreservationsign"
+  },
+  {
+    "code": "R310",
+    "description": "-PMinibusparkingreservationsign"
+  },
+  {
+    "code": "R311",
+    "description": "Midibusreservationsign"
+  },
+  {
+    "code": "R311",
+    "description": "-PMidibusparkingreservationsign"
+  },
+  {
+    "code": "R312",
+    "description": "Deliveryvehiclereservationsign"
+  },
+  {
+    "code": "R312",
+    "description": "-PDeliveryvehicleparkingreservationsign"
+  },
+  {
+    "code": "R313",
+    "description": "Goodsvehiclereservationsign"
+  },
+  {
+    "code": "R313",
+    "description": "-PGoodsvehicleparkingreservationsign"
+  },
+  {
+    "code": "R314",
+    "description": "GoodsvehicleoverindicatedGVMreservationsign"
+  },
+  {
+    "code": "R314",
+    "description": "-PGoodsvehicleoverindicatedGVMparkingreservationsign"
+  },
+  {
+    "code": "R315",
+    "description": "Constructionvehiclereservationsign"
+  },
+  {
+    "code": "R315",
+    "description": "-PConstructionvehicleparkingreservationsign"
+  },
+  {
+    "code": "R316",
+    "description": "Vehicleconveyingdangerousgoodsreservationsign"
+  },
+  {
+    "code": "R316",
+    "description": "-PVehicleconveyingdangerousgoodsparkingreservationsign"
+  },
+  {
+    "code": "R317",
+    "description": "Abnormalvehiclereservationsign"
+  },
+  {
+    "code": "R317",
+    "description": "-PAbnormalvehicleparkingreservationsign"
+  },
+  {
+    "code": "R318",
+    "description": "Rickshawreservationsign"
+  },
+  {
+    "code": "R318",
+    "description": "-PRickshawparkingreservationsign"
+  },
+  {
+    "code": "R319",
+    "description": "Tourbusreservationsign"
+  },
+  {
+    "code": "R319",
+    "description": "-PTourbusparkingreservationsign"
+  },
+  {
+    "code": "R320",
+    "description": "Highoccupancyvehiclereservationsign"
+  },
+  {
+    "code": "R320",
+    "description": "-PHighoccupancyvehicleparkingreservationsign"
+  },
+  {
+    "code": "R321",
+    "description": "Emergencyvehiclereservationsign"
+  },
+  {
+    "code": "R321",
+    "description": "-PEmergencyvehicleparkingreservationsign"
+  },
+  {
+    "code": "R322",
+    "description": "Policevehiclereservationsign"
+  },
+  {
+    "code": "R322",
+    "description": "-PPolicevehicleparkingreservationsign"
+  },
+  {
+    "code": "R323",
+    "description": "Disabledpersonsvehiclereservationsign"
+  },
+  {
+    "code": "R323",
+    "description": "-PDisabledpersonsvehicleparkingreservationsign"
+  },
+  {
+    "code": "R324",
+    "description": "Authorizedvehiclereservationsign"
+  },
+  {
+    "code": "R324",
+    "description": "-PAuthorizedvehicleparkingreservationsign"
+  },
+  {
+    "code": "R325",
+    "description": "Busstopreservationsign"
+  },
+  {
+    "code": "R326",
+    "description": "Minibusstopreservationsign"
+  },
+  {
+    "code": "R327",
+    "description": "Bus & minibusreservationsign"
+  },
+  {
+    "code": "R327",
+    "description": "-PBus & minibusparkingreservationsign"
+  },
+  {
+    "code": "R328",
+    "description": "Bus & minibuslanereservationsign"
+  },
+  {
+    "code": "R329",
+    "description": "Bus & minibuslanereservationbeginssign"
+  },
+  {
+    "code": "R330",
+    "description": "Bus & midibusreservationsign"
+  },
+  {
+    "code": "R330",
+    "description": "-PBus & midibusparkingreservationsign"
+  },
+  {
+    "code": "R331",
+    "description": "Bus & midibuslanereservationsign"
+  },
+  {
+    "code": "R332",
+    "description": "Bus & midibuslanereservationbeginssign"
+  },
+  {
+    "code": "R333",
+    "description": "Bus, midibus & minibusreservationsign"
+  },
+  {
+    "code": "R333",
+    "description": "-PBus, midibus & minibusparkingreservationsign"
+  },
+  {
+    "code": "R334",
+    "description": "Bus, midibus & minibuslanereservationsign"
+  },
+  {
+    "code": "R335",
+    "description": "Bus, midibus & minibuslanereservationbeginssign"
+  },
+  {
+    "code": "R336",
+    "description": "Highoccupancyvehiclelanereservationsign"
+  },
+  {
+    "code": "R337",
+    "description": "Highoccupancyvehiclelanereservationbeginssign"
+  },
+  {
+    "code": "R338",
+    "description": "Tramreservationsign"
+  },
+  {
+    "code": "R339",
+    "description": "Tramlanereservationsign"
+  },
+  {
+    "code": "R340",
+    "description": "Tramlanereservationbeginssign"
+  },
+  {
+    "code": "R341",
+    "description": "Tramstopreservationsign"
+  },
+  {
+    "code": "R342",
+    "description": "Bus & tramreservationsign"
+  },
+  {
+    "code": "R343",
+    "description": "Bus & tramlanereservationsign"
+  },
+  {
+    "code": "R344",
+    "description": "Bus & tramlanereservationbeginssign"
+  },
+  {
+    "code": "R345",
+    "description": "Bus, minibus & tramreservationsign"
+  },
+  {
+    "code": "R346",
+    "description": "Bus, minibus & tramlanereservationsign"
+  },
+  {
+    "code": "R347",
+    "description": "Bus, minibus & tramlanereservationbeginssign"
+  },
+  {
+    "code": "R348",
+    "description": "Buslanerightreservationsign"
+  },
+  {
+    "code": "R349",
+    "description": "Bus & minibuslanerightreservationsign"
+  },
+  {
+    "code": "R350",
+    "description": "Bus & tramlanerightreservationsign"
+  },
+  {
+    "code": "R351",
+    "description": "Bus, minibus & tramlanerightreservationsign"
+  },
+  {
+    "code": "R352",
+    "description": "Highoccupancyvehiclelanerightreservationsign"
+  },
+  {
+    "code": "R353",
+    "description": "Authorizedpassengertransportvehiclelanereservationsign"
+  },
+  {
+    "code": "R354",
+    "description": "Authorizedpassengertransportvehiclelanerightreservation"
+  },
+  {
+    "code": "R401",
+    "description": "Dual-carriagewayfreewaybeginssign"
+  },
+  {
+    "code": "R402",
+    "description": "Single-carriagewayfreewaybeginssign"
+  },
+  {
+    "code": "R403",
+    "description": "Woonerfsign"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "page_name": "page_1",
+  "image_width": 6736,
+  "image_height": 9536,
+  "regions": [
+    {
+      "name": "regulatory_signs",
+      "left": 160,
+      "top": 880,
+      "columns": 20,
+      "rows": 4,
+      "column_width": 220,
+      "row_height": 220,
+      "horizontal_spacing": 40,
+      "vertical_spacing": 40,
+      "metadata": {
+        "description": "Top regulatory sign grid on page 1"
+      }
+    }
+  ]
+}

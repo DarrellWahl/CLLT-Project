@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CLLT Road Traffic Signs</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <div>
+        <h1>Road Traffic Signs</h1>
+        <p>Practice South African learner licence traffic signs with an interactive library and quiz.</p>
+      </div>
+      <div class="header-actions">
+        <button id="show-library" class="tab-button active">Sign Library</button>
+        <button id="show-quiz" class="tab-button">Quiz</button>
+      </div>
+    </header>
+
+    <main>
+      <section id="library-section" class="section active">
+        <div class="section-header">
+          <div>
+            <h2>Sign Library</h2>
+            <p>Browse extracted traffic signs with codes and descriptions.</p>
+            <p id="library-count">0 signs available</p>
+          </div>
+          <div class="search-row">
+            <input id="search-input" placeholder="Search by code or description" aria-label="Search signs" />
+            <select id="quality-filter" aria-label="Filter sign quality">
+              <option value="ok" selected>Validated Only</option>
+              <option value="all">All Detections</option>
+              <option value="warning">Warnings Only</option>
+            </select>
+          </div>
+        </div>
+        <div id="library-grid" class="card-grid"></div>
+        <div class="library-actions">
+          <button id="load-more" class="primary-button" type="button">Load More</button>
+        </div>
+      </section>
+
+      <section id="quiz-section" class="section">
+        <div class="section-header">
+          <div>
+            <h2>Sign Quiz</h2>
+            <p>Answer from four options and build your sign recognition confidence.</p>
+          </div>
+          <div class="quiz-meta">
+            <span id="quiz-count">0 signs loaded</span>
+          </div>
+        </div>
+
+        <div class="quiz-card">
+          <div id="quiz-image-wrapper" class="quiz-image-wrapper">
+            <img id="quiz-image" alt="Traffic sign for quiz" />
+          </div>
+          <div class="quiz-question">
+            <strong id="quiz-prompt">What is the code for this sign?</strong>
+          </div>
+          <div id="quiz-options" class="quiz-options"></div>
+          <div id="quiz-feedback" class="quiz-feedback"></div>
+          <div class="quiz-controls">
+            <button id="next-question" class="primary-button">Next sign</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Data source: extracted Road Traffic Signs images and cleaned legend mapping.</p>
+    </footer>
+  </div>
+
+  <script src="app.js?v=20260707f"></script>
+</body>
+</html>

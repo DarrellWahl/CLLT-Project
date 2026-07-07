@@ -1,0 +1,536 @@
+[
+  {
+    "filename": "page1_sign_005.png",
+    "page": 1,
+    "code": "R1",
+    "description": "Stopsign"
+  },
+  {
+    "filename": "page1_sign_008.png",
+    "page": 1,
+    "code": "R2",
+    "description": "Yieldsign"
+  },
+  {
+    "filename": "page1_sign_024.png",
+    "page": 1,
+    "code": "R3",
+    "description": "Noentrysign"
+  },
+  {
+    "filename": "page1_sign_026.png",
+    "page": 1,
+    "code": "R5",
+    "description": "Pedestrianprioritysign"
+  },
+  {
+    "filename": "page1_sign_010.png",
+    "page": 1,
+    "code": "R6",
+    "description": "Yieldtooncomingtrafficsign"
+  },
+  {
+    "filename": "page1_sign_014.png",
+    "page": 1,
+    "code": "R1.1",
+    "description": "Stopsign"
+  },
+  {
+    "filename": "page1_sign_015.png",
+    "page": 1,
+    "code": "R1.2",
+    "description": "Stop/Yield"
+  },
+  {
+    "filename": "page1_sign_028.png",
+    "page": 1,
+    "code": "R1.3",
+    "description": "3 -Waystopsign"
+  },
+  {
+    "filename": "page1_sign_031.png",
+    "page": 1,
+    "code": "R1.4",
+    "description": "4 -Waystopsign"
+  },
+  {
+    "filename": "page1_sign_032.png",
+    "page": 1,
+    "code": "R1.5",
+    "description": "Stop /Gosign"
+  },
+  {
+    "filename": "page1_sign_009.png",
+    "page": 1,
+    "code": "R2.1",
+    "description": "Yieldtopedestrianssign"
+  },
+  {
+    "filename": "page1_sign_027.png",
+    "page": 1,
+    "code": "R2.2",
+    "description": "Yieldatmini - circlesign"
+  },
+  {
+    "filename": "page1_sign_001.png",
+    "page": 1,
+    "code": "R101",
+    "description": "MinimumSpeedsign"
+  },
+  {
+    "filename": "page1_sign_003.png",
+    "page": 1,
+    "code": "R102",
+    "description": "Vehiclesexceedingmassonlysign"
+  },
+  {
+    "filename": "page1_sign_006.png",
+    "page": 1,
+    "code": "R103",
+    "description": "Keepleftsign"
+  },
+  {
+    "filename": "page1_sign_011.png",
+    "page": 1,
+    "code": "R104",
+    "description": "Keeprightsign"
+  },
+  {
+    "filename": "page1_sign_012.png",
+    "page": 1,
+    "code": "R105",
+    "description": "Proceedleftonlysign"
+  },
+  {
+    "filename": "page1_sign_013.png",
+    "page": 1,
+    "code": "R106",
+    "description": "Proceedrightonlysign"
+  },
+  {
+    "filename": "page1_sign_025.png",
+    "page": 1,
+    "code": "R107",
+    "description": "Proceedstraightonlysign"
+  },
+  {
+    "filename": "page1_sign_029.png",
+    "page": 1,
+    "code": "R108",
+    "description": "Turnleftsign"
+  },
+  {
+    "filename": "page1_sign_030.png",
+    "page": 1,
+    "code": "R109",
+    "description": "Turnrightsign"
+  },
+  {
+    "filename": "page1_sign_004.png",
+    "page": 1,
+    "code": "R110",
+    "description": "Pedestriansonlysign"
+  },
+  {
+    "filename": "page1_sign_007.png",
+    "page": 1,
+    "code": "R111",
+    "description": "Pedalcyclesonlysign"
+  },
+  {
+    "filename": "page1_sign_016.png",
+    "page": 1,
+    "code": "R116",
+    "description": "Motorcyclesonlysign"
+  },
+  {
+    "filename": "page1_sign_022.png",
+    "page": 1,
+    "code": "R117",
+    "description": "Motorcarsonlysign"
+  },
+  {
+    "filename": "page1_sign_023.png",
+    "page": 1,
+    "code": "R118",
+    "description": "Taxisonlysign"
+  },
+  {
+    "filename": "page1_sign_002.png",
+    "page": 1,
+    "code": "R119",
+    "description": "Minibusesonlysign"
+  },
+  {
+    "filename": "page1_sign_017.png",
+    "page": 1,
+    "code": "R120",
+    "description": "Midibusonlysign"
+  },
+  {
+    "filename": "page1_sign_018.png",
+    "page": 1,
+    "code": "R121",
+    "description": "Busesonlysign"
+  },
+  {
+    "filename": "page1_sign_019.png",
+    "page": 1,
+    "code": "R122",
+    "description": "Deliveryvehiclesonlysign"
+  },
+  {
+    "filename": "page1_sign_020.png",
+    "page": 1,
+    "code": "R123",
+    "description": "Goodsvehiclesonlysign"
+  },
+  {
+    "filename": "page1_sign_021.png",
+    "page": 1,
+    "code": "R124",
+    "description": "GoodsvehiclesoverindicatedGVMonlysign"
+  },
+  {
+    "filename": "page2_sign_001.png",
+    "page": 2,
+    "code": "R125",
+    "description": "Constructionvehiclesonlysign"
+  },
+  {
+    "filename": "page2_sign_002.png",
+    "page": 2,
+    "code": "R126",
+    "description": "Vehiclesconveyingdangerousgoodsonlysign"
+  },
+  {
+    "filename": "page2_sign_003.png",
+    "page": 2,
+    "code": "R127",
+    "description": "Abnormalvehiclesonlysign"
+  },
+  {
+    "filename": "page2_sign_004.png",
+    "page": 2,
+    "code": "R128",
+    "description": "Rickshawsonlysign"
+  },
+  {
+    "filename": "page2_sign_005.png",
+    "page": 2,
+    "code": "R129",
+    "description": "Tourbusesonlysign"
+  },
+  {
+    "filename": "page2_sign_006.png",
+    "page": 2,
+    "code": "R130",
+    "description": "Agriculturalvehiclesonlysign"
+  },
+  {
+    "filename": "page2_sign_007.png",
+    "page": 2,
+    "code": "R131",
+    "description": "Animal-drawnvehiclesonlysign"
+  },
+  {
+    "filename": "page2_sign_008.png",
+    "page": 2,
+    "code": "R132",
+    "description": "Paytollsign"
+  },
+  {
+    "filename": "page2_sign_009.png",
+    "page": 2,
+    "code": "R133",
+    "description": "Switchheadlampsonsign"
+  },
+  {
+    "filename": "page2_sign_010.png",
+    "page": 2,
+    "code": "R134",
+    "description": "Buses & minibusesonlysign"
+  },
+  {
+    "filename": "page2_sign_011.png",
+    "page": 2,
+    "code": "R135",
+    "description": "Buses & midibusesonlysign"
+  },
+  {
+    "filename": "page2_sign_012.png",
+    "page": 2,
+    "code": "R136",
+    "description": "Buses, midibuses & minibusesonlysign"
+  },
+  {
+    "filename": "page2_sign_013.png",
+    "page": 2,
+    "code": "R137",
+    "description": "Roundaboutsign"
+  },
+  {
+    "filename": "page2_sign_014.png",
+    "page": 2,
+    "code": "R138",
+    "description": "Tramsonlysign"
+  },
+  {
+    "filename": "page2_sign_015.png",
+    "page": 2,
+    "code": "R139",
+    "description": "Buses & tramsonlysign"
+  },
+  {
+    "filename": "page3_sign_001.png",
+    "page": 3,
+    "code": "R140",
+    "description": "Buses, trams & minibusesonlysign"
+  },
+  {
+    "filename": "page3_sign_002.png",
+    "page": 3,
+    "code": "R201",
+    "description": "Speedlimitsign"
+  },
+  {
+    "filename": "page3_sign_003.png",
+    "page": 3,
+    "code": "R202",
+    "description": "Masslimitsign"
+  },
+  {
+    "filename": "page3_sign_004.png",
+    "page": 3,
+    "code": "R203",
+    "description": "Axlemassloadlimitsign"
+  },
+  {
+    "filename": "page3_sign_005.png",
+    "page": 3,
+    "code": "R204",
+    "description": "Heightlimitsign"
+  },
+  {
+    "filename": "page3_sign_006.png",
+    "page": 3,
+    "code": "R205",
+    "description": "Lengthlimitsign"
+  },
+  {
+    "filename": "page3_sign_007.png",
+    "page": 3,
+    "code": "R206",
+    "description": "Excessivenoiseprohibitedsign"
+  },
+  {
+    "filename": "page3_sign_008.png",
+    "page": 3,
+    "code": "R207",
+    "description": "Hitch-hikingprohibitedsign"
+  },
+  {
+    "filename": "page3_sign_009.png",
+    "page": 3,
+    "code": "R208",
+    "description": "Unauthorizedvehiclesprohibitedsign"
+  },
+  {
+    "filename": "page3_sign_010.png",
+    "page": 3,
+    "code": "R209",
+    "description": "Leftturnaheadprohibitedsign"
+  },
+  {
+    "filename": "page3_sign_011.png",
+    "page": 3,
+    "code": "R210",
+    "description": "Rightturnaheadprohibitedsign"
+  },
+  {
+    "filename": "page3_sign_012.png",
+    "page": 3,
+    "code": "R211",
+    "description": "Leftturnprohibitedsign"
+  },
+  {
+    "filename": "page3_sign_013.png",
+    "page": 3,
+    "code": "R212",
+    "description": "Rightturnprohibitedsign"
+  },
+  {
+    "filename": "page3_sign_014.png",
+    "page": 3,
+    "code": "R213",
+    "description": "U-turnprohibitedsign"
+  },
+  {
+    "filename": "page3_sign_015.png",
+    "page": 3,
+    "code": "R214",
+    "description": "Overtakingprohibitedsign"
+  },
+  {
+    "filename": "page4_sign_005.png",
+    "page": 4,
+    "code": "R215",
+    "description": "Overtakingbygoodsvehicleprohibitedsign"
+  },
+  {
+    "filename": "page4_sign_007.png",
+    "page": 4,
+    "code": "R216",
+    "description": "Parkingprohibitedsign"
+  },
+  {
+    "filename": "page4_sign_023.png",
+    "page": 4,
+    "code": "R217",
+    "description": "Stoppingprohibitedsign"
+  },
+  {
+    "filename": "page4_sign_009.png",
+    "page": 4,
+    "code": "R218",
+    "description": "Pedestrianprohibitedsign"
+  },
+  {
+    "filename": "page4_sign_012.png",
+    "page": 4,
+    "code": "R219",
+    "description": "Pedalcycleprohibitedsign"
+  },
+  {
+    "filename": "page4_sign_013.png",
+    "page": 4,
+    "code": "R220",
+    "description": "Pedalcycle & pedestrianprohibitedsign"
+  },
+  {
+    "filename": "page4_sign_021.png",
+    "page": 4,
+    "code": "R222",
+    "description": "Motorcycleprohibitedsign"
+  },
+  {
+    "filename": "page4_sign_027.png",
+    "page": 4,
+    "code": "R223",
+    "description": "Motorcarprohibitedsign"
+  },
+  {
+    "filename": "page4_sign_008.png",
+    "page": 4,
+    "code": "R224",
+    "description": "Taxiprohibitedsign"
+  },
+  {
+    "filename": "page4_sign_024.png",
+    "page": 4,
+    "code": "R225",
+    "description": "Minibusprohibitedsign"
+  },
+  {
+    "filename": "page4_sign_001.png",
+    "page": 4,
+    "code": "R226",
+    "description": "Midibusprohibitedsign"
+  },
+  {
+    "filename": "page4_sign_003.png",
+    "page": 4,
+    "code": "R227",
+    "description": "Busprohibitedsign"
+  },
+  {
+    "filename": "page4_sign_006.png",
+    "page": 4,
+    "code": "R228",
+    "description": "Deliveryvehicleprohibitedsign"
+  },
+  {
+    "filename": "page4_sign_010.png",
+    "page": 4,
+    "code": "R229",
+    "description": "Goodsvehicleprohibitedsign"
+  },
+  {
+    "filename": "page4_sign_011.png",
+    "page": 4,
+    "code": "R230",
+    "description": "GoodsvehicleoverindicatedGVMprohibitedsign"
+  },
+  {
+    "filename": "page4_sign_022.png",
+    "page": 4,
+    "code": "R231",
+    "description": "Constructionvehicleprohibitedsign"
+  },
+  {
+    "filename": "page4_sign_025.png",
+    "page": 4,
+    "code": "R232",
+    "description": "Vehicleconveyingdangerousgoodsprohibitedsign"
+  },
+  {
+    "filename": "page4_sign_026.png",
+    "page": 4,
+    "code": "R233",
+    "description": "Abnormalvehicleprohibitedsign"
+  },
+  {
+    "filename": "page4_sign_004.png",
+    "page": 4,
+    "code": "R234",
+    "description": "Rickshawprohibitedsign"
+  },
+  {
+    "filename": "page4_sign_014.png",
+    "page": 4,
+    "code": "R235",
+    "description": "Tourbusprohibitedsign"
+  },
+  {
+    "filename": "page4_sign_019.png",
+    "page": 4,
+    "code": "R236",
+    "description": "Agriculturalvehicleprohibitedsign"
+  },
+  {
+    "filename": "page4_sign_020.png",
+    "page": 4,
+    "code": "R237",
+    "description": "Animal-drawnvehicleprohibitedsign"
+  },
+  {
+    "filename": "page4_sign_002.png",
+    "page": 4,
+    "code": "R238",
+    "description": "Horses & ridersprohibitedsign"
+  },
+  {
+    "filename": "page4_sign_015.png",
+    "page": 4,
+    "code": "R239",
+    "description": "Widthlimitsign"
+  },
+  {
+    "filename": "page4_sign_016.png",
+    "page": 4,
+    "code": "R240",
+    "description": "Towedvehiclesprohibitedsign"
+  },
+  {
+    "filename": "page4_sign_017.png",
+    "page": 4,
+    "code": "R241",
+    "description": "Hawkersprohibitedsign"
+  },
+  {
+    "filename": "page4_sign_018.png",
+    "page": 4,
+    "code": "R301",
+    "description": "-PBusparkingreservationsign"
+  }
+]

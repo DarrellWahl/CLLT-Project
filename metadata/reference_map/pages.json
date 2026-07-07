@@ -1,0 +1,62 @@
+[
+  {
+    "page_id": "za-rtl-2026-01-p1",
+    "edition_id": "za-rtl-2026-01",
+    "page_number": 1,
+    "image_width": 6736,
+    "image_height": 9536,
+    "page_image_path": "assets/png/pages/page_1.png",
+    "page_image_sha256": "5f9d1b1d9614d564435f62b4c80752e0eed31512a82dd2c7bb11b3a4e4d10ca2",
+    "render_dpi": 300,
+    "normalization_profile": "v1",
+    "created_at": "2026-07-07T15:40:49Z"
+  },
+  {
+    "page_id": "za-rtl-2026-01-p2",
+    "edition_id": "za-rtl-2026-01",
+    "page_number": 2,
+    "image_width": 6736,
+    "image_height": 9536,
+    "page_image_path": "assets/png/pages/page_2.png",
+    "page_image_sha256": "25e777db0369db4f91c01d55fd49c214ec64ff628f679ce3390f24b9232af08f",
+    "render_dpi": 300,
+    "normalization_profile": "v1",
+    "created_at": "2026-07-07T15:40:49Z"
+  },
+  {
+    "page_id": "za-rtl-2026-01-p3",
+    "edition_id": "za-rtl-2026-01",
+    "page_number": 3,
+    "image_width": 6736,
+    "image_height": 9536,
+    "page_image_path": "assets/png/pages/page_3.png",
+    "page_image_sha256": "c33b4e30f9a2053267307f8501c09cfd61df9a9c14bec2b872dd4e38ddc10f5b",
+    "render_dpi": 300,
+    "normalization_profile": "v1",
+    "created_at": "2026-07-07T15:40:49Z"
+  },
+  {
+    "page_id": "za-rtl-2026-01-p4",
+    "edition_id": "za-rtl-2026-01",
+    "page_number": 4,
+    "image_width": 6736,
+    "image_height": 9536,
+    "page_image_path": "assets/png/pages/page_4.png",
+    "page_image_sha256": "166edb6ee518f16b891c641cebe7fa99e87c304408709c56b51d20872d4141f5",
+    "render_dpi": 300,
+    "normalization_profile": "v1",
+    "created_at": "2026-07-07T15:40:49Z"
+  },
+  {
+    "page_id": "za-rtl-2026-01-p5",
+    "edition_id": "za-rtl-2026-01",
+    "page_number": 5,
+    "image_width": 9536,
+    "image_height": 9996,
+    "page_image_path": "assets/png/pages/page_5.png",
+    "page_image_sha256": "db9a323b2b9988f06a1eea1034878d7f699b0b16fe760f77490ac9bf4e4afa1b",
+    "render_dpi": 300,
+    "normalization_profile": "v1",
+    "created_at": "2026-07-07T15:40:49Z"
+  }
+]

@@ -1,0 +1,2350 @@
+{
+  "contract_version": "1.0.0",
+  "matcher_version": "1.0.0",
+  "run_type": "candidate_assignment_only",
+  "edition_id": "za-rtl-2026-01",
+  "run_at": "2026-07-07T16:00:00Z",
+  "sample_limit": 18,
+  "top_k": 3,
+  "inputs": {
+    "reference_positions": "metadata/reference_map/reference_positions.json",
+    "reference_cells": "metadata/reference_map/reference_cells.json",
+    "manual_editions": "metadata/reference_map/manual_editions.json",
+    "pages": "metadata/reference_map/pages.json",
+    "extracted_metadata_files": [
+      "metadata/page_1_signs.json",
+      "metadata/page_2_signs.json",
+      "metadata/page_3_signs.json",
+      "metadata/page_4_signs.json"
+    ]
+  },
+  "summary": {
+    "approved_reference_positions": 12,
+    "extracted_sample_size": 18,
+    "candidate_count": 54
+  },
+  "candidates": [
+    {
+      "candidate_assignment_id": "CA-d00ce858a7041fa9",
+      "reference_position_id": "RP-000001",
+      "extracted_sign_id": "ES-page1_unknown_001",
+      "extracted_filename": "page1_unknown_001.png",
+      "page_number": 1,
+      "rank": 1,
+      "match_score": 0.22251,
+      "geometry_agreement": {
+        "iou": 0.0418,
+        "center_distance": 0.088153,
+        "center_score": 0.937666,
+        "area_ratio": 0.057162,
+        "geometry_score": 0.22251
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.22251,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-6a3a9650ac4f10f2",
+      "reference_position_id": "RP-000006",
+      "extracted_sign_id": "ES-page1_unknown_001",
+      "extracted_filename": "page1_unknown_001.png",
+      "page_number": 1,
+      "rank": 2,
+      "match_score": 0.160222,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.321696,
+        "center_score": 0.772527,
+        "area_ratio": 0.057162,
+        "geometry_score": 0.160222
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.160222,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-bbb335d540c1a1d2",
+      "reference_position_id": "RP-000011",
+      "extracted_sign_id": "ES-page1_unknown_001",
+      "extracted_filename": "page1_unknown_001.png",
+      "page_number": 1,
+      "rank": 3,
+      "match_score": 0.118998,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.613193,
+        "center_score": 0.566407,
+        "area_ratio": 0.057162,
+        "geometry_score": 0.118998
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.118998,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-01956a768218daf2",
+      "reference_position_id": "RP-000001",
+      "extracted_sign_id": "ES-page1_unknown_002",
+      "extracted_filename": "page1_unknown_002.png",
+      "page_number": 1,
+      "rank": 1,
+      "match_score": 0.192152,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.129234,
+        "center_score": 0.908618,
+        "area_ratio": 0.104283,
+        "geometry_score": 0.192152
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.192152,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-e145162ae99f99f6",
+      "reference_position_id": "RP-000006",
+      "extracted_sign_id": "ES-page1_unknown_002",
+      "extracted_filename": "page1_unknown_002.png",
+      "page_number": 1,
+      "rank": 2,
+      "match_score": 0.168667,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.295296,
+        "center_score": 0.791194,
+        "area_ratio": 0.104283,
+        "geometry_score": 0.168667
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.168667,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-65bc2ec364ae67e4",
+      "reference_position_id": "RP-000011",
+      "extracted_sign_id": "ES-page1_unknown_002",
+      "extracted_filename": "page1_unknown_002.png",
+      "page_number": 1,
+      "rank": 3,
+      "match_score": 0.128636,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.578358,
+        "center_score": 0.591039,
+        "area_ratio": 0.104283,
+        "geometry_score": 0.128636
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.128636,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-64e96ba93149eb14",
+      "reference_position_id": "RP-000001",
+      "extracted_sign_id": "ES-page1_unknown_003",
+      "extracted_filename": "page1_unknown_003.png",
+      "page_number": 1,
+      "rank": 1,
+      "match_score": 0.184791,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.18128,
+        "center_score": 0.871815,
+        "area_ratio": 0.104283,
+        "geometry_score": 0.184791
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.184791,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-892460965d1b0841",
+      "reference_position_id": "RP-000006",
+      "extracted_sign_id": "ES-page1_unknown_003",
+      "extracted_filename": "page1_unknown_003.png",
+      "page_number": 1,
+      "rank": 2,
+      "match_score": 0.170289,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.283828,
+        "center_score": 0.799303,
+        "area_ratio": 0.104283,
+        "geometry_score": 0.170289
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.170289,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-ce9e9ea3338ea113",
+      "reference_position_id": "RP-000011",
+      "extracted_sign_id": "ES-page1_unknown_003",
+      "extracted_filename": "page1_unknown_003.png",
+      "page_number": 1,
+      "rank": 3,
+      "match_score": 0.132319,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.552317,
+        "center_score": 0.609453,
+        "area_ratio": 0.104283,
+        "geometry_score": 0.132319
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.132319,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-1530265b7da6e14e",
+      "reference_position_id": "RP-000001",
+      "extracted_sign_id": "ES-page1_unknown_004",
+      "extracted_filename": "page1_unknown_004.png",
+      "page_number": 1,
+      "rank": 1,
+      "match_score": 0.170058,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.236936,
+        "center_score": 0.832461,
+        "area_ratio": 0.035654,
+        "geometry_score": 0.170058
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.170058,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-883cf6edc9b10986",
+      "reference_position_id": "RP-000006",
+      "extracted_sign_id": "ES-page1_unknown_004",
+      "extracted_filename": "page1_unknown_004.png",
+      "page_number": 1,
+      "rank": 2,
+      "match_score": 0.162689,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.289038,
+        "center_score": 0.795619,
+        "area_ratio": 0.035654,
+        "geometry_score": 0.162689
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.162689,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-222e5eb0036e9fde",
+      "reference_position_id": "RP-000011",
+      "extracted_sign_id": "ES-page1_unknown_004",
+      "extracted_filename": "page1_unknown_004.png",
+      "page_number": 1,
+      "rank": 3,
+      "match_score": 0.127704,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.536421,
+        "center_score": 0.620693,
+        "area_ratio": 0.035654,
+        "geometry_score": 0.127704
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.127704,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-d65cfd746bfd32fe",
+      "reference_position_id": "RP-000001",
+      "extracted_sign_id": "ES-page1_unknown_005",
+      "extracted_filename": "page1_unknown_005.png",
+      "page_number": 1,
+      "rank": 1,
+      "match_score": 0.239308,
+      "geometry_agreement": {
+        "iou": 0.060238,
+        "center_distance": 0.062804,
+        "center_score": 0.955591,
+        "area_ratio": 0.060238,
+        "geometry_score": 0.239308
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.239308,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-e4d6ce9afb980b49",
+      "reference_position_id": "RP-000006",
+      "extracted_sign_id": "ES-page1_unknown_005",
+      "extracted_filename": "page1_unknown_005.png",
+      "page_number": 1,
+      "rank": 2,
+      "match_score": 0.156929,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.347155,
+        "center_score": 0.754524,
+        "area_ratio": 0.060238,
+        "geometry_score": 0.156929
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.156929,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-907a01f18706c76b",
+      "reference_position_id": "RP-000011",
+      "extracted_sign_id": "ES-page1_unknown_005",
+      "extracted_filename": "page1_unknown_005.png",
+      "page_number": 1,
+      "rank": 3,
+      "match_score": 0.115041,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.643342,
+        "center_score": 0.545088,
+        "area_ratio": 0.060238,
+        "geometry_score": 0.115041
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.115041,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-b15689185bda6dae",
+      "reference_position_id": "RP-000006",
+      "extracted_sign_id": "ES-page1_unknown_006",
+      "extracted_filename": "page1_unknown_006.png",
+      "page_number": 1,
+      "rank": 1,
+      "match_score": 0.163106,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.339004,
+        "center_score": 0.760288,
+        "area_ratio": 0.110487,
+        "geometry_score": 0.163106
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.163106,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-539f9073f51782a7",
+      "reference_position_id": "RP-000001",
+      "extracted_sign_id": "ES-page1_unknown_006",
+      "extracted_filename": "page1_unknown_006.png",
+      "page_number": 1,
+      "rank": 2,
+      "match_score": 0.154255,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.401593,
+        "center_score": 0.716031,
+        "area_ratio": 0.110487,
+        "geometry_score": 0.154255
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.154255,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-3fb99bd5046dd325",
+      "reference_position_id": "RP-000011",
+      "extracted_sign_id": "ES-page1_unknown_006",
+      "extracted_filename": "page1_unknown_006.png",
+      "page_number": 1,
+      "rank": 3,
+      "match_score": 0.140996,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.495349,
+        "center_score": 0.649735,
+        "area_ratio": 0.110487,
+        "geometry_score": 0.140996
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.140996,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-bc2e01613de5ab34",
+      "reference_position_id": "RP-000006",
+      "extracted_sign_id": "ES-page1_unknown_007",
+      "extracted_filename": "page1_unknown_007.png",
+      "page_number": 1,
+      "rank": 1,
+      "match_score": 0.156863,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.374622,
+        "center_score": 0.735103,
+        "area_ratio": 0.098425,
+        "geometry_score": 0.156863
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.156863,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-d2f30ca424bce423",
+      "reference_position_id": "RP-000001",
+      "extracted_sign_id": "ES-page1_unknown_007",
+      "extracted_filename": "page1_unknown_007.png",
+      "page_number": 1,
+      "rank": 2,
+      "match_score": 0.145131,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.457583,
+        "center_score": 0.67644,
+        "area_ratio": 0.098425,
+        "geometry_score": 0.145131
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.145131,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-f4123e9ae489634a",
+      "reference_position_id": "RP-000011",
+      "extracted_sign_id": "ES-page1_unknown_007",
+      "extracted_filename": "page1_unknown_007.png",
+      "page_number": 1,
+      "rank": 3,
+      "match_score": 0.139401,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.498097,
+        "center_score": 0.647792,
+        "area_ratio": 0.098425,
+        "geometry_score": 0.139401
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.139401,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-6ef338ec8e09e270",
+      "reference_position_id": "RP-000006",
+      "extracted_sign_id": "ES-page1_unknown_008",
+      "extracted_filename": "page1_unknown_008.png",
+      "page_number": 1,
+      "rank": 1,
+      "match_score": 0.131328,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.554814,
+        "center_score": 0.607687,
+        "area_ratio": 0.097903,
+        "geometry_score": 0.131328
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.131328,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-c6a9a235ee99367d",
+      "reference_position_id": "RP-000011",
+      "extracted_sign_id": "ES-page1_unknown_008",
+      "extracted_filename": "page1_unknown_008.png",
+      "page_number": 1,
+      "rank": 2,
+      "match_score": 0.129218,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.569734,
+        "center_score": 0.597137,
+        "area_ratio": 0.097903,
+        "geometry_score": 0.129218
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.129218,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-57e86107ee3bd8c0",
+      "reference_position_id": "RP-000001",
+      "extracted_sign_id": "ES-page1_unknown_008",
+      "extracted_filename": "page1_unknown_008.png",
+      "page_number": 1,
+      "rank": 3,
+      "match_score": 0.11306,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.683988,
+        "center_score": 0.516347,
+        "area_ratio": 0.097903,
+        "geometry_score": 0.11306
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.11306,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-2f1ea968eb23a356",
+      "reference_position_id": "RP-000011",
+      "extracted_sign_id": "ES-page1_unknown_009",
+      "extracted_filename": "page1_unknown_009.png",
+      "page_number": 1,
+      "rank": 1,
+      "match_score": 0.124981,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.600058,
+        "center_score": 0.575695,
+        "area_ratio": 0.098425,
+        "geometry_score": 0.124981
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.124981,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-4ca3dfc531b9939a",
+      "reference_position_id": "RP-000006",
+      "extracted_sign_id": "ES-page1_unknown_009",
+      "extracted_filename": "page1_unknown_009.png",
+      "page_number": 1,
+      "rank": 2,
+      "match_score": 0.124261,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.605149,
+        "center_score": 0.572095,
+        "area_ratio": 0.098425,
+        "geometry_score": 0.124261
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.124261,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-37e22efb7a8f153c",
+      "reference_position_id": "RP-000001",
+      "extracted_sign_id": "ES-page1_unknown_009",
+      "extracted_filename": "page1_unknown_009.png",
+      "page_number": 1,
+      "rank": 3,
+      "match_score": 0.105043,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.741041,
+        "center_score": 0.476005,
+        "area_ratio": 0.098425,
+        "geometry_score": 0.105043
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.105043,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-143fa8b9f7a10637",
+      "reference_position_id": "RP-000006",
+      "extracted_sign_id": "ES-page1_unknown_010",
+      "extracted_filename": "page1_unknown_010.png",
+      "page_number": 1,
+      "rank": 1,
+      "match_score": 0.171036,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.282931,
+        "center_score": 0.799938,
+        "area_ratio": 0.110487,
+        "geometry_score": 0.171036
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.171036,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-d6ded774689e995e",
+      "reference_position_id": "RP-000001",
+      "extracted_sign_id": "ES-page1_unknown_010",
+      "extracted_filename": "page1_unknown_010.png",
+      "page_number": 1,
+      "rank": 2,
+      "match_score": 0.170277,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.288301,
+        "center_score": 0.796141,
+        "area_ratio": 0.110487,
+        "geometry_score": 0.170277
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.170277,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-c1ec3cbf57c71db3",
+      "reference_position_id": "RP-000011",
+      "extracted_sign_id": "ES-page1_unknown_010",
+      "extracted_filename": "page1_unknown_010.png",
+      "page_number": 1,
+      "rank": 3,
+      "match_score": 0.139805,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.503768,
+        "center_score": 0.643782,
+        "area_ratio": 0.110487,
+        "geometry_score": 0.139805
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.139805,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-c682afaf598fef65",
+      "reference_position_id": "RP-000001",
+      "extracted_sign_id": "ES-page1_unknown_011",
+      "extracted_filename": "page1_unknown_011.png",
+      "page_number": 1,
+      "rank": 1,
+      "match_score": 0.251361,
+      "geometry_agreement": {
+        "iou": 0.073784,
+        "center_distance": 0.076353,
+        "center_score": 0.94601,
+        "area_ratio": 0.105097,
+        "geometry_score": 0.251361
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.251361,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-df1862b65af6ee17",
+      "reference_position_id": "RP-000006",
+      "extracted_sign_id": "ES-page1_unknown_011",
+      "extracted_filename": "page1_unknown_011.png",
+      "page_number": 1,
+      "rank": 2,
+      "match_score": 0.15772,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.373277,
+        "center_score": 0.736054,
+        "area_ratio": 0.105097,
+        "geometry_score": 0.15772
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.15772,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-47808df77c8f623b",
+      "reference_position_id": "RP-000011",
+      "extracted_sign_id": "ES-page1_unknown_011",
+      "extracted_filename": "page1_unknown_011.png",
+      "page_number": 1,
+      "rank": 3,
+      "match_score": 0.115679,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.670553,
+        "center_score": 0.525848,
+        "area_ratio": 0.105097,
+        "geometry_score": 0.115679
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.115679,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-e781a891375ef05f",
+      "reference_position_id": "RP-000006",
+      "extracted_sign_id": "ES-page1_unknown_012",
+      "extracted_filename": "page1_unknown_012.png",
+      "page_number": 1,
+      "rank": 1,
+      "match_score": 0.133129,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.504627,
+        "center_score": 0.643175,
+        "area_ratio": 0.044943,
+        "geometry_score": 0.133129
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.133129,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-6772cdd417d9ed97",
+      "reference_position_id": "RP-000011",
+      "extracted_sign_id": "ES-page1_unknown_012",
+      "extracted_filename": "page1_unknown_012.png",
+      "page_number": 1,
+      "rank": 2,
+      "match_score": 0.127992,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.540952,
+        "center_score": 0.617489,
+        "area_ratio": 0.044943,
+        "geometry_score": 0.127992
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.127992,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-5e3180da859a28ad",
+      "reference_position_id": "RP-000001",
+      "extracted_sign_id": "ES-page1_unknown_012",
+      "extracted_filename": "page1_unknown_012.png",
+      "page_number": 1,
+      "rank": 3,
+      "match_score": 0.115785,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.627271,
+        "center_score": 0.556453,
+        "area_ratio": 0.044943,
+        "geometry_score": 0.115785
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.115785,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-4f5893695a7ec42b",
+      "reference_position_id": "RP-000006",
+      "extracted_sign_id": "ES-page1_unknown_013",
+      "extracted_filename": "page1_unknown_013.png",
+      "page_number": 1,
+      "rank": 1,
+      "match_score": 0.146263,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.411741,
+        "center_score": 0.708855,
+        "area_ratio": 0.044917,
+        "geometry_score": 0.146263
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.146263,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-34616a737ab4f868",
+      "reference_position_id": "RP-000011",
+      "extracted_sign_id": "ES-page1_unknown_013",
+      "extracted_filename": "page1_unknown_013.png",
+      "page_number": 1,
+      "rank": 2,
+      "match_score": 0.133514,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.501887,
+        "center_score": 0.645112,
+        "area_ratio": 0.044917,
+        "geometry_score": 0.133514
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.133514,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-f7c3243e0be92931",
+      "reference_position_id": "RP-000001",
+      "extracted_sign_id": "ES-page1_unknown_013",
+      "extracted_filename": "page1_unknown_013.png",
+      "page_number": 1,
+      "rank": 3,
+      "match_score": 0.131832,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.513781,
+        "center_score": 0.636702,
+        "area_ratio": 0.044917,
+        "geometry_score": 0.131832
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.131832,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-2ade632b9d05fd2f",
+      "reference_position_id": "RP-000006",
+      "extracted_sign_id": "ES-page1_unknown_014",
+      "extracted_filename": "page1_unknown_014.png",
+      "page_number": 1,
+      "rank": 1,
+      "match_score": 0.140177,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.454887,
+        "center_score": 0.678346,
+        "area_ratio": 0.045078,
+        "geometry_score": 0.140177
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.140177,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-e6439d2c34ce1922",
+      "reference_position_id": "RP-000011",
+      "extracted_sign_id": "ES-page1_unknown_014",
+      "extracted_filename": "page1_unknown_014.png",
+      "page_number": 1,
+      "rank": 2,
+      "match_score": 0.131402,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.516934,
+        "center_score": 0.634473,
+        "area_ratio": 0.045078,
+        "geometry_score": 0.131402
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.131402,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-2999579b5becaf53",
+      "reference_position_id": "RP-000001",
+      "extracted_sign_id": "ES-page1_unknown_014",
+      "extracted_filename": "page1_unknown_014.png",
+      "page_number": 1,
+      "rank": 3,
+      "match_score": 0.124081,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.568703,
+        "center_score": 0.597866,
+        "area_ratio": 0.045078,
+        "geometry_score": 0.124081
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.124081,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-bae189f21643a6b0",
+      "reference_position_id": "RP-000001",
+      "extracted_sign_id": "ES-page1_unknown_015",
+      "extracted_filename": "page1_unknown_015.png",
+      "page_number": 1,
+      "rank": 1,
+      "match_score": 0.17248,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.231333,
+        "center_score": 0.836423,
+        "area_ratio": 0.051958,
+        "geometry_score": 0.17248
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.17248,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-0f58f77ac5665641",
+      "reference_position_id": "RP-000006",
+      "extracted_sign_id": "ES-page1_unknown_015",
+      "extracted_filename": "page1_unknown_015.png",
+      "page_number": 1,
+      "rank": 2,
+      "match_score": 0.16756,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.266122,
+        "center_score": 0.811823,
+        "area_ratio": 0.051958,
+        "geometry_score": 0.16756
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.16756,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-bf6df6d5e6315f29",
+      "reference_position_id": "RP-000011",
+      "extracted_sign_id": "ES-page1_unknown_015",
+      "extracted_filename": "page1_unknown_015.png",
+      "page_number": 1,
+      "rank": 3,
+      "match_score": 0.132405,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.514711,
+        "center_score": 0.636044,
+        "area_ratio": 0.051958,
+        "geometry_score": 0.132405
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.132405,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-cd693ed1d58884d1",
+      "reference_position_id": "RP-000001",
+      "extracted_sign_id": "ES-page1_unknown_016",
+      "extracted_filename": "page1_unknown_016.png",
+      "page_number": 1,
+      "rank": 1,
+      "match_score": 0.226779,
+      "geometry_agreement": {
+        "iou": 0.044853,
+        "center_distance": 0.071858,
+        "center_score": 0.949189,
+        "area_ratio": 0.055436,
+        "geometry_score": 0.226779
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.226779,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-265bd7f01d9275c0",
+      "reference_position_id": "RP-000006",
+      "extracted_sign_id": "ES-page1_unknown_016",
+      "extracted_filename": "page1_unknown_016.png",
+      "page_number": 1,
+      "rank": 2,
+      "match_score": 0.162974,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.301011,
+        "center_score": 0.787153,
+        "area_ratio": 0.055436,
+        "geometry_score": 0.162974
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.162974,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-310ee139a70f4fa6",
+      "reference_position_id": "RP-000011",
+      "extracted_sign_id": "ES-page1_unknown_016",
+      "extracted_filename": "page1_unknown_016.png",
+      "page_number": 1,
+      "rank": 3,
+      "match_score": 0.121538,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.594013,
+        "center_score": 0.579969,
+        "area_ratio": 0.055436,
+        "geometry_score": 0.121538
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.121538,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-4213399894648b04",
+      "reference_position_id": "RP-000001",
+      "extracted_sign_id": "ES-page1_unknown_017",
+      "extracted_filename": "page1_unknown_017.png",
+      "page_number": 1,
+      "rank": 1,
+      "match_score": 0.220756,
+      "geometry_agreement": {
+        "iou": 0.033471,
+        "center_distance": 0.042572,
+        "center_score": 0.969897,
+        "area_ratio": 0.033471,
+        "geometry_score": 0.220756
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.220756,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-16a3375f2ed39413",
+      "reference_position_id": "RP-000006",
+      "extracted_sign_id": "ES-page1_unknown_017",
+      "extracted_filename": "page1_unknown_017.png",
+      "page_number": 1,
+      "rank": 2,
+      "match_score": 0.156554,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.330877,
+        "center_score": 0.766035,
+        "area_ratio": 0.033471,
+        "geometry_score": 0.156554
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.156554,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-41bec68cba5f05b1",
+      "reference_position_id": "RP-000011",
+      "extracted_sign_id": "ES-page1_unknown_017",
+      "extracted_filename": "page1_unknown_017.png",
+      "page_number": 1,
+      "rank": 3,
+      "match_score": 0.114584,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.627652,
+        "center_score": 0.556183,
+        "area_ratio": 0.033471,
+        "geometry_score": 0.114584
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.114584,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-358192f883545c5f",
+      "reference_position_id": "RP-000001",
+      "extracted_sign_id": "ES-page1_unknown_018",
+      "extracted_filename": "page1_unknown_018.png",
+      "page_number": 1,
+      "rank": 1,
+      "match_score": 0.185309,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.120975,
+        "center_score": 0.914458,
+        "area_ratio": 0.024172,
+        "geometry_score": 0.185309
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.185309,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-80f1060076a98345",
+      "reference_position_id": "RP-000006",
+      "extracted_sign_id": "ES-page1_unknown_018",
+      "extracted_filename": "page1_unknown_018.png",
+      "page_number": 1,
+      "rank": 2,
+      "match_score": 0.163312,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.276513,
+        "center_score": 0.804476,
+        "area_ratio": 0.024172,
+        "geometry_score": 0.163312
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.163312,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    },
+    {
+      "candidate_assignment_id": "CA-8e5242180a87374d",
+      "reference_position_id": "RP-000011",
+      "extracted_sign_id": "ES-page1_unknown_018",
+      "extracted_filename": "page1_unknown_018.png",
+      "page_number": 1,
+      "rank": 3,
+      "match_score": 0.123034,
+      "geometry_agreement": {
+        "iou": 0.0,
+        "center_distance": 0.561323,
+        "center_score": 0.603085,
+        "area_ratio": 0.024172,
+        "geometry_score": 0.123034
+      },
+      "ocr_agreement": {
+        "available": false,
+        "agreement": "unavailable",
+        "score": null
+      },
+      "validation_status": "candidate_valid",
+      "review_status": "unreviewed",
+      "confidence": 0.123034,
+      "provenance": {
+        "authoritative_source": "metadata/reference_map/reference_positions.json",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "assignment_method": "deterministic_geometry_match_v1",
+        "pipeline_version": "reference-matcher-v1",
+        "timestamp": "2026-07-07T16:00:00Z"
+      },
+      "audit": {
+        "algorithm_version": "reference-matcher-v1",
+        "threshold_profile": "candidate-strict-v1",
+        "weights": {
+          "iou": 0.7,
+          "center": 0.2,
+          "area": 0.1,
+          "ocr_bonus": 0.15
+        },
+        "top_k": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,1398 @@
+{
+  "contract_version": "1.0.0",
+  "builder_version": "1.0.0",
+  "edition_id": "za-rtl-2026-01",
+  "status": "draft",
+  "created_at": "2026-07-07T15:32:50Z",
+  "updated_at": "2026-07-07T15:41:04Z",
+  "notes": "Reference positions are intentionally empty until authoritative grid annotation is completed.",
+  "page_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "positions": [
+    {
+      "reference_position_id": "RP-000001",
+      "edition_id": "za-rtl-2026-01",
+      "page_id": "za-rtl-2026-01-p1",
+      "page_number": 1,
+      "reference_cell_id": "RC-000001",
+      "grid_row": 1,
+      "grid_col": 1,
+      "norm_x": 0.06,
+      "norm_y": 0.08,
+      "norm_w": 0.14,
+      "norm_h": 0.16,
+      "official_code": "R1",
+      "official_description": "Stop sign",
+      "category": "regulatory",
+      "category_detail": "",
+      "extracted_image_filename": "",
+      "reference_status": "verified",
+      "validation_status": "valid",
+      "approval_state": "approved",
+      "authoring_method": "reference_position_authoring_system",
+      "pipeline_version": "reference-map-authoring-v1",
+      "manual_edition": "za-rtl-2026-01",
+      "source_page": 1,
+      "confidence": null,
+      "created_at": "2026-07-07T15:41:04Z",
+      "updated_at": "2026-07-07T15:41:04Z",
+      "current_version": 3,
+      "versions": [
+        {
+          "version": 1,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "create",
+          "actor": "system",
+          "notes": "Seed sample position for workflow validation",
+          "state": {
+            "reference_cell_id": "RC-000001",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p1",
+            "page_number": 1,
+            "grid_row": 1,
+            "grid_col": 1,
+            "official_code": "R1",
+            "official_description": "Stop sign",
+            "category": "regulatory",
+            "category_detail": "",
+            "validation_status": "pending",
+            "approval_state": "draft"
+          }
+        },
+        {
+          "version": 2,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "review",
+          "actor": "system",
+          "notes": "Sample review transition",
+          "state": {
+            "reference_cell_id": "RC-000001",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p1",
+            "page_number": 1,
+            "grid_row": 1,
+            "grid_col": 1,
+            "official_code": "R1",
+            "official_description": "Stop sign",
+            "category": "regulatory",
+            "category_detail": "",
+            "validation_status": "reviewed",
+            "approval_state": "in_review"
+          }
+        },
+        {
+          "version": 3,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "approve",
+          "actor": "system",
+          "notes": "Sample approval transition",
+          "state": {
+            "reference_cell_id": "RC-000001",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p1",
+            "page_number": 1,
+            "grid_row": 1,
+            "grid_col": 1,
+            "official_code": "R1",
+            "official_description": "Stop sign",
+            "category": "regulatory",
+            "category_detail": "",
+            "validation_status": "valid",
+            "approval_state": "approved"
+          }
+        }
+      ],
+      "history": [
+        {
+          "event_type": "create",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Seed sample position for workflow validation"
+        },
+        {
+          "event_type": "review",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Sample review transition"
+        },
+        {
+          "event_type": "approve",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Sample approval transition"
+        }
+      ],
+      "archived": false
+    },
+    {
+      "reference_position_id": "RP-000002",
+      "edition_id": "za-rtl-2026-01",
+      "page_id": "za-rtl-2026-01-p2",
+      "page_number": 2,
+      "reference_cell_id": "RC-000002",
+      "grid_row": 1,
+      "grid_col": 2,
+      "norm_x": 0.26,
+      "norm_y": 0.08,
+      "norm_w": 0.14,
+      "norm_h": 0.16,
+      "official_code": "R2",
+      "official_description": "Yield",
+      "category": "regulatory",
+      "category_detail": "",
+      "extracted_image_filename": "",
+      "reference_status": "verified",
+      "validation_status": "valid",
+      "approval_state": "approved",
+      "authoring_method": "reference_position_authoring_system",
+      "pipeline_version": "reference-map-authoring-v1",
+      "manual_edition": "za-rtl-2026-01",
+      "source_page": 2,
+      "confidence": null,
+      "created_at": "2026-07-07T15:41:04Z",
+      "updated_at": "2026-07-07T15:41:04Z",
+      "current_version": 3,
+      "versions": [
+        {
+          "version": 1,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "create",
+          "actor": "system",
+          "notes": "Seed sample position for workflow validation",
+          "state": {
+            "reference_cell_id": "RC-000002",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p2",
+            "page_number": 2,
+            "grid_row": 1,
+            "grid_col": 2,
+            "official_code": "R2",
+            "official_description": "Yield",
+            "category": "regulatory",
+            "category_detail": "",
+            "validation_status": "pending",
+            "approval_state": "draft"
+          }
+        },
+        {
+          "version": 2,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "review",
+          "actor": "system",
+          "notes": "Sample review transition",
+          "state": {
+            "reference_cell_id": "RC-000002",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p2",
+            "page_number": 2,
+            "grid_row": 1,
+            "grid_col": 2,
+            "official_code": "R2",
+            "official_description": "Yield",
+            "category": "regulatory",
+            "category_detail": "",
+            "validation_status": "reviewed",
+            "approval_state": "in_review"
+          }
+        },
+        {
+          "version": 3,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "approve",
+          "actor": "system",
+          "notes": "Sample approval transition",
+          "state": {
+            "reference_cell_id": "RC-000002",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p2",
+            "page_number": 2,
+            "grid_row": 1,
+            "grid_col": 2,
+            "official_code": "R2",
+            "official_description": "Yield",
+            "category": "regulatory",
+            "category_detail": "",
+            "validation_status": "valid",
+            "approval_state": "approved"
+          }
+        }
+      ],
+      "history": [
+        {
+          "event_type": "create",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Seed sample position for workflow validation"
+        },
+        {
+          "event_type": "review",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Sample review transition"
+        },
+        {
+          "event_type": "approve",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Sample approval transition"
+        }
+      ],
+      "archived": false
+    },
+    {
+      "reference_position_id": "RP-000003",
+      "edition_id": "za-rtl-2026-01",
+      "page_id": "za-rtl-2026-01-p3",
+      "page_number": 3,
+      "reference_cell_id": "RC-000003",
+      "grid_row": 1,
+      "grid_col": 3,
+      "norm_x": 0.46,
+      "norm_y": 0.08,
+      "norm_w": 0.14,
+      "norm_h": 0.16,
+      "official_code": "R101",
+      "official_description": "No entry",
+      "category": "regulatory",
+      "category_detail": "",
+      "extracted_image_filename": "",
+      "reference_status": "verified",
+      "validation_status": "valid",
+      "approval_state": "approved",
+      "authoring_method": "reference_position_authoring_system",
+      "pipeline_version": "reference-map-authoring-v1",
+      "manual_edition": "za-rtl-2026-01",
+      "source_page": 3,
+      "confidence": null,
+      "created_at": "2026-07-07T15:41:04Z",
+      "updated_at": "2026-07-07T15:41:04Z",
+      "current_version": 3,
+      "versions": [
+        {
+          "version": 1,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "create",
+          "actor": "system",
+          "notes": "Seed sample position for workflow validation",
+          "state": {
+            "reference_cell_id": "RC-000003",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p3",
+            "page_number": 3,
+            "grid_row": 1,
+            "grid_col": 3,
+            "official_code": "R101",
+            "official_description": "No entry",
+            "category": "regulatory",
+            "category_detail": "",
+            "validation_status": "pending",
+            "approval_state": "draft"
+          }
+        },
+        {
+          "version": 2,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "review",
+          "actor": "system",
+          "notes": "Sample review transition",
+          "state": {
+            "reference_cell_id": "RC-000003",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p3",
+            "page_number": 3,
+            "grid_row": 1,
+            "grid_col": 3,
+            "official_code": "R101",
+            "official_description": "No entry",
+            "category": "regulatory",
+            "category_detail": "",
+            "validation_status": "reviewed",
+            "approval_state": "in_review"
+          }
+        },
+        {
+          "version": 3,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "approve",
+          "actor": "system",
+          "notes": "Sample approval transition",
+          "state": {
+            "reference_cell_id": "RC-000003",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p3",
+            "page_number": 3,
+            "grid_row": 1,
+            "grid_col": 3,
+            "official_code": "R101",
+            "official_description": "No entry",
+            "category": "regulatory",
+            "category_detail": "",
+            "validation_status": "valid",
+            "approval_state": "approved"
+          }
+        }
+      ],
+      "history": [
+        {
+          "event_type": "create",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Seed sample position for workflow validation"
+        },
+        {
+          "event_type": "review",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Sample review transition"
+        },
+        {
+          "event_type": "approve",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Sample approval transition"
+        }
+      ],
+      "archived": false
+    },
+    {
+      "reference_position_id": "RP-000004",
+      "edition_id": "za-rtl-2026-01",
+      "page_id": "za-rtl-2026-01-p4",
+      "page_number": 4,
+      "reference_cell_id": "RC-000004",
+      "grid_row": 1,
+      "grid_col": 4,
+      "norm_x": 0.66,
+      "norm_y": 0.08,
+      "norm_w": 0.14,
+      "norm_h": 0.16,
+      "official_code": "W201",
+      "official_description": "Sharp bend ahead",
+      "category": "warning",
+      "category_detail": "",
+      "extracted_image_filename": "",
+      "reference_status": "verified",
+      "validation_status": "valid",
+      "approval_state": "approved",
+      "authoring_method": "reference_position_authoring_system",
+      "pipeline_version": "reference-map-authoring-v1",
+      "manual_edition": "za-rtl-2026-01",
+      "source_page": 4,
+      "confidence": null,
+      "created_at": "2026-07-07T15:41:04Z",
+      "updated_at": "2026-07-07T15:41:04Z",
+      "current_version": 3,
+      "versions": [
+        {
+          "version": 1,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "create",
+          "actor": "system",
+          "notes": "Seed sample position for workflow validation",
+          "state": {
+            "reference_cell_id": "RC-000004",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p4",
+            "page_number": 4,
+            "grid_row": 1,
+            "grid_col": 4,
+            "official_code": "W201",
+            "official_description": "Sharp bend ahead",
+            "category": "warning",
+            "category_detail": "",
+            "validation_status": "pending",
+            "approval_state": "draft"
+          }
+        },
+        {
+          "version": 2,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "review",
+          "actor": "system",
+          "notes": "Sample review transition",
+          "state": {
+            "reference_cell_id": "RC-000004",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p4",
+            "page_number": 4,
+            "grid_row": 1,
+            "grid_col": 4,
+            "official_code": "W201",
+            "official_description": "Sharp bend ahead",
+            "category": "warning",
+            "category_detail": "",
+            "validation_status": "reviewed",
+            "approval_state": "in_review"
+          }
+        },
+        {
+          "version": 3,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "approve",
+          "actor": "system",
+          "notes": "Sample approval transition",
+          "state": {
+            "reference_cell_id": "RC-000004",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p4",
+            "page_number": 4,
+            "grid_row": 1,
+            "grid_col": 4,
+            "official_code": "W201",
+            "official_description": "Sharp bend ahead",
+            "category": "warning",
+            "category_detail": "",
+            "validation_status": "valid",
+            "approval_state": "approved"
+          }
+        }
+      ],
+      "history": [
+        {
+          "event_type": "create",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Seed sample position for workflow validation"
+        },
+        {
+          "event_type": "review",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Sample review transition"
+        },
+        {
+          "event_type": "approve",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Sample approval transition"
+        }
+      ],
+      "archived": false
+    },
+    {
+      "reference_position_id": "RP-000005",
+      "edition_id": "za-rtl-2026-01",
+      "page_id": "za-rtl-2026-01-p5",
+      "page_number": 5,
+      "reference_cell_id": "RC-000005",
+      "grid_row": 2,
+      "grid_col": 1,
+      "norm_x": 0.06,
+      "norm_y": 0.3,
+      "norm_w": 0.14,
+      "norm_h": 0.16,
+      "official_code": "W202",
+      "official_description": "Pedestrian crossing ahead",
+      "category": "warning",
+      "category_detail": "",
+      "extracted_image_filename": "",
+      "reference_status": "verified",
+      "validation_status": "valid",
+      "approval_state": "approved",
+      "authoring_method": "reference_position_authoring_system",
+      "pipeline_version": "reference-map-authoring-v1",
+      "manual_edition": "za-rtl-2026-01",
+      "source_page": 5,
+      "confidence": null,
+      "created_at": "2026-07-07T15:41:04Z",
+      "updated_at": "2026-07-07T15:41:04Z",
+      "current_version": 3,
+      "versions": [
+        {
+          "version": 1,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "create",
+          "actor": "system",
+          "notes": "Seed sample position for workflow validation",
+          "state": {
+            "reference_cell_id": "RC-000005",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p5",
+            "page_number": 5,
+            "grid_row": 2,
+            "grid_col": 1,
+            "official_code": "W202",
+            "official_description": "Pedestrian crossing ahead",
+            "category": "warning",
+            "category_detail": "",
+            "validation_status": "pending",
+            "approval_state": "draft"
+          }
+        },
+        {
+          "version": 2,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "review",
+          "actor": "system",
+          "notes": "Sample review transition",
+          "state": {
+            "reference_cell_id": "RC-000005",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p5",
+            "page_number": 5,
+            "grid_row": 2,
+            "grid_col": 1,
+            "official_code": "W202",
+            "official_description": "Pedestrian crossing ahead",
+            "category": "warning",
+            "category_detail": "",
+            "validation_status": "reviewed",
+            "approval_state": "in_review"
+          }
+        },
+        {
+          "version": 3,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "approve",
+          "actor": "system",
+          "notes": "Sample approval transition",
+          "state": {
+            "reference_cell_id": "RC-000005",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p5",
+            "page_number": 5,
+            "grid_row": 2,
+            "grid_col": 1,
+            "official_code": "W202",
+            "official_description": "Pedestrian crossing ahead",
+            "category": "warning",
+            "category_detail": "",
+            "validation_status": "valid",
+            "approval_state": "approved"
+          }
+        }
+      ],
+      "history": [
+        {
+          "event_type": "create",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Seed sample position for workflow validation"
+        },
+        {
+          "event_type": "review",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Sample review transition"
+        },
+        {
+          "event_type": "approve",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Sample approval transition"
+        }
+      ],
+      "archived": false
+    },
+    {
+      "reference_position_id": "RP-000006",
+      "edition_id": "za-rtl-2026-01",
+      "page_id": "za-rtl-2026-01-p1",
+      "page_number": 1,
+      "reference_cell_id": "RC-000006",
+      "grid_row": 2,
+      "grid_col": 2,
+      "norm_x": 0.26,
+      "norm_y": 0.3,
+      "norm_w": 0.14,
+      "norm_h": 0.16,
+      "official_code": "GS1",
+      "official_description": "Motorway ahead",
+      "category": "guidance",
+      "category_detail": "",
+      "extracted_image_filename": "",
+      "reference_status": "verified",
+      "validation_status": "valid",
+      "approval_state": "approved",
+      "authoring_method": "reference_position_authoring_system",
+      "pipeline_version": "reference-map-authoring-v1",
+      "manual_edition": "za-rtl-2026-01",
+      "source_page": 1,
+      "confidence": null,
+      "created_at": "2026-07-07T15:41:04Z",
+      "updated_at": "2026-07-07T15:41:04Z",
+      "current_version": 3,
+      "versions": [
+        {
+          "version": 1,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "create",
+          "actor": "system",
+          "notes": "Seed sample position for workflow validation",
+          "state": {
+            "reference_cell_id": "RC-000006",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p1",
+            "page_number": 1,
+            "grid_row": 2,
+            "grid_col": 2,
+            "official_code": "GS1",
+            "official_description": "Motorway ahead",
+            "category": "guidance",
+            "category_detail": "",
+            "validation_status": "pending",
+            "approval_state": "draft"
+          }
+        },
+        {
+          "version": 2,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "review",
+          "actor": "system",
+          "notes": "Sample review transition",
+          "state": {
+            "reference_cell_id": "RC-000006",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p1",
+            "page_number": 1,
+            "grid_row": 2,
+            "grid_col": 2,
+            "official_code": "GS1",
+            "official_description": "Motorway ahead",
+            "category": "guidance",
+            "category_detail": "",
+            "validation_status": "reviewed",
+            "approval_state": "in_review"
+          }
+        },
+        {
+          "version": 3,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "approve",
+          "actor": "system",
+          "notes": "Sample approval transition",
+          "state": {
+            "reference_cell_id": "RC-000006",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p1",
+            "page_number": 1,
+            "grid_row": 2,
+            "grid_col": 2,
+            "official_code": "GS1",
+            "official_description": "Motorway ahead",
+            "category": "guidance",
+            "category_detail": "",
+            "validation_status": "valid",
+            "approval_state": "approved"
+          }
+        }
+      ],
+      "history": [
+        {
+          "event_type": "create",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Seed sample position for workflow validation"
+        },
+        {
+          "event_type": "review",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Sample review transition"
+        },
+        {
+          "event_type": "approve",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Sample approval transition"
+        }
+      ],
+      "archived": false
+    },
+    {
+      "reference_position_id": "RP-000007",
+      "edition_id": "za-rtl-2026-01",
+      "page_id": "za-rtl-2026-01-p2",
+      "page_number": 2,
+      "reference_cell_id": "RC-000007",
+      "grid_row": 2,
+      "grid_col": 3,
+      "norm_x": 0.46,
+      "norm_y": 0.3,
+      "norm_w": 0.14,
+      "norm_h": 0.16,
+      "official_code": "GS2",
+      "official_description": "Route direction sign",
+      "category": "guidance",
+      "category_detail": "",
+      "extracted_image_filename": "",
+      "reference_status": "verified",
+      "validation_status": "valid",
+      "approval_state": "approved",
+      "authoring_method": "reference_position_authoring_system",
+      "pipeline_version": "reference-map-authoring-v1",
+      "manual_edition": "za-rtl-2026-01",
+      "source_page": 2,
+      "confidence": null,
+      "created_at": "2026-07-07T15:41:04Z",
+      "updated_at": "2026-07-07T15:41:04Z",
+      "current_version": 3,
+      "versions": [
+        {
+          "version": 1,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "create",
+          "actor": "system",
+          "notes": "Seed sample position for workflow validation",
+          "state": {
+            "reference_cell_id": "RC-000007",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p2",
+            "page_number": 2,
+            "grid_row": 2,
+            "grid_col": 3,
+            "official_code": "GS2",
+            "official_description": "Route direction sign",
+            "category": "guidance",
+            "category_detail": "",
+            "validation_status": "pending",
+            "approval_state": "draft"
+          }
+        },
+        {
+          "version": 2,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "review",
+          "actor": "system",
+          "notes": "Sample review transition",
+          "state": {
+            "reference_cell_id": "RC-000007",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p2",
+            "page_number": 2,
+            "grid_row": 2,
+            "grid_col": 3,
+            "official_code": "GS2",
+            "official_description": "Route direction sign",
+            "category": "guidance",
+            "category_detail": "",
+            "validation_status": "reviewed",
+            "approval_state": "in_review"
+          }
+        },
+        {
+          "version": 3,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "approve",
+          "actor": "system",
+          "notes": "Sample approval transition",
+          "state": {
+            "reference_cell_id": "RC-000007",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p2",
+            "page_number": 2,
+            "grid_row": 2,
+            "grid_col": 3,
+            "official_code": "GS2",
+            "official_description": "Route direction sign",
+            "category": "guidance",
+            "category_detail": "",
+            "validation_status": "valid",
+            "approval_state": "approved"
+          }
+        }
+      ],
+      "history": [
+        {
+          "event_type": "create",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Seed sample position for workflow validation"
+        },
+        {
+          "event_type": "review",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Sample review transition"
+        },
+        {
+          "event_type": "approve",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Sample approval transition"
+        }
+      ],
+      "archived": false
+    },
+    {
+      "reference_position_id": "RP-000008",
+      "edition_id": "za-rtl-2026-01",
+      "page_id": "za-rtl-2026-01-p3",
+      "page_number": 3,
+      "reference_cell_id": "RC-000008",
+      "grid_row": 2,
+      "grid_col": 4,
+      "norm_x": 0.66,
+      "norm_y": 0.3,
+      "norm_w": 0.14,
+      "norm_h": 0.16,
+      "official_code": "TR1",
+      "official_description": "Roadworks ahead",
+      "category": "temporary",
+      "category_detail": "",
+      "extracted_image_filename": "",
+      "reference_status": "verified",
+      "validation_status": "valid",
+      "approval_state": "approved",
+      "authoring_method": "reference_position_authoring_system",
+      "pipeline_version": "reference-map-authoring-v1",
+      "manual_edition": "za-rtl-2026-01",
+      "source_page": 3,
+      "confidence": null,
+      "created_at": "2026-07-07T15:41:04Z",
+      "updated_at": "2026-07-07T15:41:04Z",
+      "current_version": 3,
+      "versions": [
+        {
+          "version": 1,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "create",
+          "actor": "system",
+          "notes": "Seed sample position for workflow validation",
+          "state": {
+            "reference_cell_id": "RC-000008",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p3",
+            "page_number": 3,
+            "grid_row": 2,
+            "grid_col": 4,
+            "official_code": "TR1",
+            "official_description": "Roadworks ahead",
+            "category": "temporary",
+            "category_detail": "",
+            "validation_status": "pending",
+            "approval_state": "draft"
+          }
+        },
+        {
+          "version": 2,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "review",
+          "actor": "system",
+          "notes": "Sample review transition",
+          "state": {
+            "reference_cell_id": "RC-000008",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p3",
+            "page_number": 3,
+            "grid_row": 2,
+            "grid_col": 4,
+            "official_code": "TR1",
+            "official_description": "Roadworks ahead",
+            "category": "temporary",
+            "category_detail": "",
+            "validation_status": "reviewed",
+            "approval_state": "in_review"
+          }
+        },
+        {
+          "version": 3,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "approve",
+          "actor": "system",
+          "notes": "Sample approval transition",
+          "state": {
+            "reference_cell_id": "RC-000008",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p3",
+            "page_number": 3,
+            "grid_row": 2,
+            "grid_col": 4,
+            "official_code": "TR1",
+            "official_description": "Roadworks ahead",
+            "category": "temporary",
+            "category_detail": "",
+            "validation_status": "valid",
+            "approval_state": "approved"
+          }
+        }
+      ],
+      "history": [
+        {
+          "event_type": "create",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Seed sample position for workflow validation"
+        },
+        {
+          "event_type": "review",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Sample review transition"
+        },
+        {
+          "event_type": "approve",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Sample approval transition"
+        }
+      ],
+      "archived": false
+    },
+    {
+      "reference_position_id": "RP-000009",
+      "edition_id": "za-rtl-2026-01",
+      "page_id": "za-rtl-2026-01-p4",
+      "page_number": 4,
+      "reference_cell_id": "RC-000009",
+      "grid_row": 3,
+      "grid_col": 1,
+      "norm_x": 0.06,
+      "norm_y": 0.52,
+      "norm_w": 0.14,
+      "norm_h": 0.16,
+      "official_code": "TR2",
+      "official_description": "Temporary speed restriction",
+      "category": "temporary",
+      "category_detail": "",
+      "extracted_image_filename": "",
+      "reference_status": "verified",
+      "validation_status": "valid",
+      "approval_state": "approved",
+      "authoring_method": "reference_position_authoring_system",
+      "pipeline_version": "reference-map-authoring-v1",
+      "manual_edition": "za-rtl-2026-01",
+      "source_page": 4,
+      "confidence": null,
+      "created_at": "2026-07-07T15:41:04Z",
+      "updated_at": "2026-07-07T15:41:04Z",
+      "current_version": 3,
+      "versions": [
+        {
+          "version": 1,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "create",
+          "actor": "system",
+          "notes": "Seed sample position for workflow validation",
+          "state": {
+            "reference_cell_id": "RC-000009",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p4",
+            "page_number": 4,
+            "grid_row": 3,
+            "grid_col": 1,
+            "official_code": "TR2",
+            "official_description": "Temporary speed restriction",
+            "category": "temporary",
+            "category_detail": "",
+            "validation_status": "pending",
+            "approval_state": "draft"
+          }
+        },
+        {
+          "version": 2,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "review",
+          "actor": "system",
+          "notes": "Sample review transition",
+          "state": {
+            "reference_cell_id": "RC-000009",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p4",
+            "page_number": 4,
+            "grid_row": 3,
+            "grid_col": 1,
+            "official_code": "TR2",
+            "official_description": "Temporary speed restriction",
+            "category": "temporary",
+            "category_detail": "",
+            "validation_status": "reviewed",
+            "approval_state": "in_review"
+          }
+        },
+        {
+          "version": 3,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "approve",
+          "actor": "system",
+          "notes": "Sample approval transition",
+          "state": {
+            "reference_cell_id": "RC-000009",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p4",
+            "page_number": 4,
+            "grid_row": 3,
+            "grid_col": 1,
+            "official_code": "TR2",
+            "official_description": "Temporary speed restriction",
+            "category": "temporary",
+            "category_detail": "",
+            "validation_status": "valid",
+            "approval_state": "approved"
+          }
+        }
+      ],
+      "history": [
+        {
+          "event_type": "create",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Seed sample position for workflow validation"
+        },
+        {
+          "event_type": "review",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Sample review transition"
+        },
+        {
+          "event_type": "approve",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Sample approval transition"
+        }
+      ],
+      "archived": false
+    },
+    {
+      "reference_position_id": "RP-000010",
+      "edition_id": "za-rtl-2026-01",
+      "page_id": "za-rtl-2026-01-p5",
+      "page_number": 5,
+      "reference_cell_id": "RC-000010",
+      "grid_row": 3,
+      "grid_col": 2,
+      "norm_x": 0.26,
+      "norm_y": 0.52,
+      "norm_w": 0.14,
+      "norm_h": 0.16,
+      "official_code": "INF1",
+      "official_description": "Parking area",
+      "category": "information",
+      "category_detail": "",
+      "extracted_image_filename": "",
+      "reference_status": "verified",
+      "validation_status": "valid",
+      "approval_state": "approved",
+      "authoring_method": "reference_position_authoring_system",
+      "pipeline_version": "reference-map-authoring-v1",
+      "manual_edition": "za-rtl-2026-01",
+      "source_page": 5,
+      "confidence": null,
+      "created_at": "2026-07-07T15:41:04Z",
+      "updated_at": "2026-07-07T15:41:04Z",
+      "current_version": 3,
+      "versions": [
+        {
+          "version": 1,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "create",
+          "actor": "system",
+          "notes": "Seed sample position for workflow validation",
+          "state": {
+            "reference_cell_id": "RC-000010",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p5",
+            "page_number": 5,
+            "grid_row": 3,
+            "grid_col": 2,
+            "official_code": "INF1",
+            "official_description": "Parking area",
+            "category": "information",
+            "category_detail": "",
+            "validation_status": "pending",
+            "approval_state": "draft"
+          }
+        },
+        {
+          "version": 2,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "review",
+          "actor": "system",
+          "notes": "Sample review transition",
+          "state": {
+            "reference_cell_id": "RC-000010",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p5",
+            "page_number": 5,
+            "grid_row": 3,
+            "grid_col": 2,
+            "official_code": "INF1",
+            "official_description": "Parking area",
+            "category": "information",
+            "category_detail": "",
+            "validation_status": "reviewed",
+            "approval_state": "in_review"
+          }
+        },
+        {
+          "version": 3,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "approve",
+          "actor": "system",
+          "notes": "Sample approval transition",
+          "state": {
+            "reference_cell_id": "RC-000010",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p5",
+            "page_number": 5,
+            "grid_row": 3,
+            "grid_col": 2,
+            "official_code": "INF1",
+            "official_description": "Parking area",
+            "category": "information",
+            "category_detail": "",
+            "validation_status": "valid",
+            "approval_state": "approved"
+          }
+        }
+      ],
+      "history": [
+        {
+          "event_type": "create",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Seed sample position for workflow validation"
+        },
+        {
+          "event_type": "review",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Sample review transition"
+        },
+        {
+          "event_type": "approve",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Sample approval transition"
+        }
+      ],
+      "archived": false
+    },
+    {
+      "reference_position_id": "RP-000011",
+      "edition_id": "za-rtl-2026-01",
+      "page_id": "za-rtl-2026-01-p1",
+      "page_number": 1,
+      "reference_cell_id": "RC-000011",
+      "grid_row": 3,
+      "grid_col": 3,
+      "norm_x": 0.46,
+      "norm_y": 0.52,
+      "norm_w": 0.14,
+      "norm_h": 0.16,
+      "official_code": "INF2",
+      "official_description": "Hospital",
+      "category": "information",
+      "category_detail": "",
+      "extracted_image_filename": "",
+      "reference_status": "verified",
+      "validation_status": "valid",
+      "approval_state": "approved",
+      "authoring_method": "reference_position_authoring_system",
+      "pipeline_version": "reference-map-authoring-v1",
+      "manual_edition": "za-rtl-2026-01",
+      "source_page": 1,
+      "confidence": null,
+      "created_at": "2026-07-07T15:41:04Z",
+      "updated_at": "2026-07-07T15:41:04Z",
+      "current_version": 3,
+      "versions": [
+        {
+          "version": 1,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "create",
+          "actor": "system",
+          "notes": "Seed sample position for workflow validation",
+          "state": {
+            "reference_cell_id": "RC-000011",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p1",
+            "page_number": 1,
+            "grid_row": 3,
+            "grid_col": 3,
+            "official_code": "INF2",
+            "official_description": "Hospital",
+            "category": "information",
+            "category_detail": "",
+            "validation_status": "pending",
+            "approval_state": "draft"
+          }
+        },
+        {
+          "version": 2,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "review",
+          "actor": "system",
+          "notes": "Sample review transition",
+          "state": {
+            "reference_cell_id": "RC-000011",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p1",
+            "page_number": 1,
+            "grid_row": 3,
+            "grid_col": 3,
+            "official_code": "INF2",
+            "official_description": "Hospital",
+            "category": "information",
+            "category_detail": "",
+            "validation_status": "reviewed",
+            "approval_state": "in_review"
+          }
+        },
+        {
+          "version": 3,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "approve",
+          "actor": "system",
+          "notes": "Sample approval transition",
+          "state": {
+            "reference_cell_id": "RC-000011",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p1",
+            "page_number": 1,
+            "grid_row": 3,
+            "grid_col": 3,
+            "official_code": "INF2",
+            "official_description": "Hospital",
+            "category": "information",
+            "category_detail": "",
+            "validation_status": "valid",
+            "approval_state": "approved"
+          }
+        }
+      ],
+      "history": [
+        {
+          "event_type": "create",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Seed sample position for workflow validation"
+        },
+        {
+          "event_type": "review",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Sample review transition"
+        },
+        {
+          "event_type": "approve",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Sample approval transition"
+        }
+      ],
+      "archived": false
+    },
+    {
+      "reference_position_id": "RP-000012",
+      "edition_id": "za-rtl-2026-01",
+      "page_id": "za-rtl-2026-01-p2",
+      "page_number": 2,
+      "reference_cell_id": "RC-000012",
+      "grid_row": 3,
+      "grid_col": 4,
+      "norm_x": 0.66,
+      "norm_y": 0.52,
+      "norm_w": 0.14,
+      "norm_h": 0.16,
+      "official_code": "M1",
+      "official_description": "Tourism information",
+      "category": "miscellaneous",
+      "category_detail": "tourism",
+      "extracted_image_filename": "",
+      "reference_status": "verified",
+      "validation_status": "valid",
+      "approval_state": "approved",
+      "authoring_method": "reference_position_authoring_system",
+      "pipeline_version": "reference-map-authoring-v1",
+      "manual_edition": "za-rtl-2026-01",
+      "source_page": 2,
+      "confidence": null,
+      "created_at": "2026-07-07T15:41:04Z",
+      "updated_at": "2026-07-07T15:41:04Z",
+      "current_version": 3,
+      "versions": [
+        {
+          "version": 1,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "create",
+          "actor": "system",
+          "notes": "Seed sample position for workflow validation",
+          "state": {
+            "reference_cell_id": "RC-000012",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p2",
+            "page_number": 2,
+            "grid_row": 3,
+            "grid_col": 4,
+            "official_code": "M1",
+            "official_description": "Tourism information",
+            "category": "miscellaneous",
+            "category_detail": "tourism",
+            "validation_status": "pending",
+            "approval_state": "draft"
+          }
+        },
+        {
+          "version": 2,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "review",
+          "actor": "system",
+          "notes": "Sample review transition",
+          "state": {
+            "reference_cell_id": "RC-000012",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p2",
+            "page_number": 2,
+            "grid_row": 3,
+            "grid_col": 4,
+            "official_code": "M1",
+            "official_description": "Tourism information",
+            "category": "miscellaneous",
+            "category_detail": "tourism",
+            "validation_status": "reviewed",
+            "approval_state": "in_review"
+          }
+        },
+        {
+          "version": 3,
+          "changed_at": "2026-07-07T15:41:04Z",
+          "change_type": "approve",
+          "actor": "system",
+          "notes": "Sample approval transition",
+          "state": {
+            "reference_cell_id": "RC-000012",
+            "edition_id": "za-rtl-2026-01",
+            "page_id": "za-rtl-2026-01-p2",
+            "page_number": 2,
+            "grid_row": 3,
+            "grid_col": 4,
+            "official_code": "M1",
+            "official_description": "Tourism information",
+            "category": "miscellaneous",
+            "category_detail": "tourism",
+            "validation_status": "valid",
+            "approval_state": "approved"
+          }
+        }
+      ],
+      "history": [
+        {
+          "event_type": "create",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Seed sample position for workflow validation"
+        },
+        {
+          "event_type": "review",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Sample review transition"
+        },
+        {
+          "event_type": "approve",
+          "timestamp": "2026-07-07T15:41:04Z",
+          "actor": "system",
+          "notes": "Sample approval transition"
+        }
+      ],
+      "archived": false
+    }
+  ]
+}

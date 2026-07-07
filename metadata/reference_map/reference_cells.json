@@ -1,0 +1,622 @@
+{
+  "contract_version": "1.0.0",
+  "builder_version": "1.0.0",
+  "edition_id": "za-rtl-2026-01",
+  "status": "draft",
+  "created_at": "2026-07-07T15:40:49Z",
+  "updated_at": "2026-07-07T15:41:04Z",
+  "cells": [
+    {
+      "reference_cell_id": "RC-000001",
+      "edition_id": "za-rtl-2026-01",
+      "page_id": "za-rtl-2026-01-p1",
+      "page_number": 1,
+      "grid_row": 1,
+      "grid_col": 1,
+      "geometry": {
+        "norm_x": 0.06,
+        "norm_y": 0.08,
+        "norm_w": 0.14,
+        "norm_h": 0.16,
+        "norm_cx": 0.13,
+        "norm_cy": 0.16,
+        "rotation_deg": 0.0,
+        "margin": {
+          "top": 0.002,
+          "right": 0.002,
+          "bottom": 0.002,
+          "left": 0.002
+        },
+        "padding": {
+          "top": 0.003,
+          "right": 0.003,
+          "bottom": 0.003,
+          "left": 0.003
+        }
+      },
+      "cell_status": "draft",
+      "approval_state": "draft",
+      "created_at": "2026-07-07T15:41:04Z",
+      "updated_at": "2026-07-07T15:41:04Z",
+      "provenance": {
+        "creation_timestamp": "2026-07-07T15:41:04Z",
+        "authoring_method": "reference_position_authoring_system",
+        "pipeline_version": "reference-map-authoring-v1",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "validation_state": "pending",
+        "approval_state": "draft",
+        "history": [
+          {
+            "event_type": "create",
+            "timestamp": "2026-07-07T15:41:04Z",
+            "actor": "system",
+            "notes": "Seed sample cell for workflow validation"
+          }
+        ]
+      },
+      "archived": false
+    },
+    {
+      "reference_cell_id": "RC-000002",
+      "edition_id": "za-rtl-2026-01",
+      "page_id": "za-rtl-2026-01-p2",
+      "page_number": 2,
+      "grid_row": 1,
+      "grid_col": 2,
+      "geometry": {
+        "norm_x": 0.26,
+        "norm_y": 0.08,
+        "norm_w": 0.14,
+        "norm_h": 0.16,
+        "norm_cx": 0.33,
+        "norm_cy": 0.16,
+        "rotation_deg": 0.0,
+        "margin": {
+          "top": 0.002,
+          "right": 0.002,
+          "bottom": 0.002,
+          "left": 0.002
+        },
+        "padding": {
+          "top": 0.003,
+          "right": 0.003,
+          "bottom": 0.003,
+          "left": 0.003
+        }
+      },
+      "cell_status": "draft",
+      "approval_state": "draft",
+      "created_at": "2026-07-07T15:41:04Z",
+      "updated_at": "2026-07-07T15:41:04Z",
+      "provenance": {
+        "creation_timestamp": "2026-07-07T15:41:04Z",
+        "authoring_method": "reference_position_authoring_system",
+        "pipeline_version": "reference-map-authoring-v1",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 2,
+        "validation_state": "pending",
+        "approval_state": "draft",
+        "history": [
+          {
+            "event_type": "create",
+            "timestamp": "2026-07-07T15:41:04Z",
+            "actor": "system",
+            "notes": "Seed sample cell for workflow validation"
+          }
+        ]
+      },
+      "archived": false
+    },
+    {
+      "reference_cell_id": "RC-000003",
+      "edition_id": "za-rtl-2026-01",
+      "page_id": "za-rtl-2026-01-p3",
+      "page_number": 3,
+      "grid_row": 1,
+      "grid_col": 3,
+      "geometry": {
+        "norm_x": 0.46,
+        "norm_y": 0.08,
+        "norm_w": 0.14,
+        "norm_h": 0.16,
+        "norm_cx": 0.53,
+        "norm_cy": 0.16,
+        "rotation_deg": 0.0,
+        "margin": {
+          "top": 0.002,
+          "right": 0.002,
+          "bottom": 0.002,
+          "left": 0.002
+        },
+        "padding": {
+          "top": 0.003,
+          "right": 0.003,
+          "bottom": 0.003,
+          "left": 0.003
+        }
+      },
+      "cell_status": "draft",
+      "approval_state": "draft",
+      "created_at": "2026-07-07T15:41:04Z",
+      "updated_at": "2026-07-07T15:41:04Z",
+      "provenance": {
+        "creation_timestamp": "2026-07-07T15:41:04Z",
+        "authoring_method": "reference_position_authoring_system",
+        "pipeline_version": "reference-map-authoring-v1",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 3,
+        "validation_state": "pending",
+        "approval_state": "draft",
+        "history": [
+          {
+            "event_type": "create",
+            "timestamp": "2026-07-07T15:41:04Z",
+            "actor": "system",
+            "notes": "Seed sample cell for workflow validation"
+          }
+        ]
+      },
+      "archived": false
+    },
+    {
+      "reference_cell_id": "RC-000004",
+      "edition_id": "za-rtl-2026-01",
+      "page_id": "za-rtl-2026-01-p4",
+      "page_number": 4,
+      "grid_row": 1,
+      "grid_col": 4,
+      "geometry": {
+        "norm_x": 0.66,
+        "norm_y": 0.08,
+        "norm_w": 0.14,
+        "norm_h": 0.16,
+        "norm_cx": 0.73,
+        "norm_cy": 0.16,
+        "rotation_deg": 0.0,
+        "margin": {
+          "top": 0.002,
+          "right": 0.002,
+          "bottom": 0.002,
+          "left": 0.002
+        },
+        "padding": {
+          "top": 0.003,
+          "right": 0.003,
+          "bottom": 0.003,
+          "left": 0.003
+        }
+      },
+      "cell_status": "draft",
+      "approval_state": "draft",
+      "created_at": "2026-07-07T15:41:04Z",
+      "updated_at": "2026-07-07T15:41:04Z",
+      "provenance": {
+        "creation_timestamp": "2026-07-07T15:41:04Z",
+        "authoring_method": "reference_position_authoring_system",
+        "pipeline_version": "reference-map-authoring-v1",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 4,
+        "validation_state": "pending",
+        "approval_state": "draft",
+        "history": [
+          {
+            "event_type": "create",
+            "timestamp": "2026-07-07T15:41:04Z",
+            "actor": "system",
+            "notes": "Seed sample cell for workflow validation"
+          }
+        ]
+      },
+      "archived": false
+    },
+    {
+      "reference_cell_id": "RC-000005",
+      "edition_id": "za-rtl-2026-01",
+      "page_id": "za-rtl-2026-01-p5",
+      "page_number": 5,
+      "grid_row": 2,
+      "grid_col": 1,
+      "geometry": {
+        "norm_x": 0.06,
+        "norm_y": 0.3,
+        "norm_w": 0.14,
+        "norm_h": 0.16,
+        "norm_cx": 0.13,
+        "norm_cy": 0.38,
+        "rotation_deg": 0.0,
+        "margin": {
+          "top": 0.002,
+          "right": 0.002,
+          "bottom": 0.002,
+          "left": 0.002
+        },
+        "padding": {
+          "top": 0.003,
+          "right": 0.003,
+          "bottom": 0.003,
+          "left": 0.003
+        }
+      },
+      "cell_status": "draft",
+      "approval_state": "draft",
+      "created_at": "2026-07-07T15:41:04Z",
+      "updated_at": "2026-07-07T15:41:04Z",
+      "provenance": {
+        "creation_timestamp": "2026-07-07T15:41:04Z",
+        "authoring_method": "reference_position_authoring_system",
+        "pipeline_version": "reference-map-authoring-v1",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 5,
+        "validation_state": "pending",
+        "approval_state": "draft",
+        "history": [
+          {
+            "event_type": "create",
+            "timestamp": "2026-07-07T15:41:04Z",
+            "actor": "system",
+            "notes": "Seed sample cell for workflow validation"
+          }
+        ]
+      },
+      "archived": false
+    },
+    {
+      "reference_cell_id": "RC-000006",
+      "edition_id": "za-rtl-2026-01",
+      "page_id": "za-rtl-2026-01-p1",
+      "page_number": 1,
+      "grid_row": 2,
+      "grid_col": 2,
+      "geometry": {
+        "norm_x": 0.26,
+        "norm_y": 0.3,
+        "norm_w": 0.14,
+        "norm_h": 0.16,
+        "norm_cx": 0.33,
+        "norm_cy": 0.38,
+        "rotation_deg": 0.0,
+        "margin": {
+          "top": 0.002,
+          "right": 0.002,
+          "bottom": 0.002,
+          "left": 0.002
+        },
+        "padding": {
+          "top": 0.003,
+          "right": 0.003,
+          "bottom": 0.003,
+          "left": 0.003
+        }
+      },
+      "cell_status": "draft",
+      "approval_state": "draft",
+      "created_at": "2026-07-07T15:41:04Z",
+      "updated_at": "2026-07-07T15:41:04Z",
+      "provenance": {
+        "creation_timestamp": "2026-07-07T15:41:04Z",
+        "authoring_method": "reference_position_authoring_system",
+        "pipeline_version": "reference-map-authoring-v1",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "validation_state": "pending",
+        "approval_state": "draft",
+        "history": [
+          {
+            "event_type": "create",
+            "timestamp": "2026-07-07T15:41:04Z",
+            "actor": "system",
+            "notes": "Seed sample cell for workflow validation"
+          }
+        ]
+      },
+      "archived": false
+    },
+    {
+      "reference_cell_id": "RC-000007",
+      "edition_id": "za-rtl-2026-01",
+      "page_id": "za-rtl-2026-01-p2",
+      "page_number": 2,
+      "grid_row": 2,
+      "grid_col": 3,
+      "geometry": {
+        "norm_x": 0.46,
+        "norm_y": 0.3,
+        "norm_w": 0.14,
+        "norm_h": 0.16,
+        "norm_cx": 0.53,
+        "norm_cy": 0.38,
+        "rotation_deg": 0.0,
+        "margin": {
+          "top": 0.002,
+          "right": 0.002,
+          "bottom": 0.002,
+          "left": 0.002
+        },
+        "padding": {
+          "top": 0.003,
+          "right": 0.003,
+          "bottom": 0.003,
+          "left": 0.003
+        }
+      },
+      "cell_status": "draft",
+      "approval_state": "draft",
+      "created_at": "2026-07-07T15:41:04Z",
+      "updated_at": "2026-07-07T15:41:04Z",
+      "provenance": {
+        "creation_timestamp": "2026-07-07T15:41:04Z",
+        "authoring_method": "reference_position_authoring_system",
+        "pipeline_version": "reference-map-authoring-v1",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 2,
+        "validation_state": "pending",
+        "approval_state": "draft",
+        "history": [
+          {
+            "event_type": "create",
+            "timestamp": "2026-07-07T15:41:04Z",
+            "actor": "system",
+            "notes": "Seed sample cell for workflow validation"
+          }
+        ]
+      },
+      "archived": false
+    },
+    {
+      "reference_cell_id": "RC-000008",
+      "edition_id": "za-rtl-2026-01",
+      "page_id": "za-rtl-2026-01-p3",
+      "page_number": 3,
+      "grid_row": 2,
+      "grid_col": 4,
+      "geometry": {
+        "norm_x": 0.66,
+        "norm_y": 0.3,
+        "norm_w": 0.14,
+        "norm_h": 0.16,
+        "norm_cx": 0.73,
+        "norm_cy": 0.38,
+        "rotation_deg": 0.0,
+        "margin": {
+          "top": 0.002,
+          "right": 0.002,
+          "bottom": 0.002,
+          "left": 0.002
+        },
+        "padding": {
+          "top": 0.003,
+          "right": 0.003,
+          "bottom": 0.003,
+          "left": 0.003
+        }
+      },
+      "cell_status": "draft",
+      "approval_state": "draft",
+      "created_at": "2026-07-07T15:41:04Z",
+      "updated_at": "2026-07-07T15:41:04Z",
+      "provenance": {
+        "creation_timestamp": "2026-07-07T15:41:04Z",
+        "authoring_method": "reference_position_authoring_system",
+        "pipeline_version": "reference-map-authoring-v1",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 3,
+        "validation_state": "pending",
+        "approval_state": "draft",
+        "history": [
+          {
+            "event_type": "create",
+            "timestamp": "2026-07-07T15:41:04Z",
+            "actor": "system",
+            "notes": "Seed sample cell for workflow validation"
+          }
+        ]
+      },
+      "archived": false
+    },
+    {
+      "reference_cell_id": "RC-000009",
+      "edition_id": "za-rtl-2026-01",
+      "page_id": "za-rtl-2026-01-p4",
+      "page_number": 4,
+      "grid_row": 3,
+      "grid_col": 1,
+      "geometry": {
+        "norm_x": 0.06,
+        "norm_y": 0.52,
+        "norm_w": 0.14,
+        "norm_h": 0.16,
+        "norm_cx": 0.13,
+        "norm_cy": 0.6,
+        "rotation_deg": 0.0,
+        "margin": {
+          "top": 0.002,
+          "right": 0.002,
+          "bottom": 0.002,
+          "left": 0.002
+        },
+        "padding": {
+          "top": 0.003,
+          "right": 0.003,
+          "bottom": 0.003,
+          "left": 0.003
+        }
+      },
+      "cell_status": "draft",
+      "approval_state": "draft",
+      "created_at": "2026-07-07T15:41:04Z",
+      "updated_at": "2026-07-07T15:41:04Z",
+      "provenance": {
+        "creation_timestamp": "2026-07-07T15:41:04Z",
+        "authoring_method": "reference_position_authoring_system",
+        "pipeline_version": "reference-map-authoring-v1",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 4,
+        "validation_state": "pending",
+        "approval_state": "draft",
+        "history": [
+          {
+            "event_type": "create",
+            "timestamp": "2026-07-07T15:41:04Z",
+            "actor": "system",
+            "notes": "Seed sample cell for workflow validation"
+          }
+        ]
+      },
+      "archived": false
+    },
+    {
+      "reference_cell_id": "RC-000010",
+      "edition_id": "za-rtl-2026-01",
+      "page_id": "za-rtl-2026-01-p5",
+      "page_number": 5,
+      "grid_row": 3,
+      "grid_col": 2,
+      "geometry": {
+        "norm_x": 0.26,
+        "norm_y": 0.52,
+        "norm_w": 0.14,
+        "norm_h": 0.16,
+        "norm_cx": 0.33,
+        "norm_cy": 0.6,
+        "rotation_deg": 0.0,
+        "margin": {
+          "top": 0.002,
+          "right": 0.002,
+          "bottom": 0.002,
+          "left": 0.002
+        },
+        "padding": {
+          "top": 0.003,
+          "right": 0.003,
+          "bottom": 0.003,
+          "left": 0.003
+        }
+      },
+      "cell_status": "draft",
+      "approval_state": "draft",
+      "created_at": "2026-07-07T15:41:04Z",
+      "updated_at": "2026-07-07T15:41:04Z",
+      "provenance": {
+        "creation_timestamp": "2026-07-07T15:41:04Z",
+        "authoring_method": "reference_position_authoring_system",
+        "pipeline_version": "reference-map-authoring-v1",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 5,
+        "validation_state": "pending",
+        "approval_state": "draft",
+        "history": [
+          {
+            "event_type": "create",
+            "timestamp": "2026-07-07T15:41:04Z",
+            "actor": "system",
+            "notes": "Seed sample cell for workflow validation"
+          }
+        ]
+      },
+      "archived": false
+    },
+    {
+      "reference_cell_id": "RC-000011",
+      "edition_id": "za-rtl-2026-01",
+      "page_id": "za-rtl-2026-01-p1",
+      "page_number": 1,
+      "grid_row": 3,
+      "grid_col": 3,
+      "geometry": {
+        "norm_x": 0.46,
+        "norm_y": 0.52,
+        "norm_w": 0.14,
+        "norm_h": 0.16,
+        "norm_cx": 0.53,
+        "norm_cy": 0.6,
+        "rotation_deg": 0.0,
+        "margin": {
+          "top": 0.002,
+          "right": 0.002,
+          "bottom": 0.002,
+          "left": 0.002
+        },
+        "padding": {
+          "top": 0.003,
+          "right": 0.003,
+          "bottom": 0.003,
+          "left": 0.003
+        }
+      },
+      "cell_status": "draft",
+      "approval_state": "draft",
+      "created_at": "2026-07-07T15:41:04Z",
+      "updated_at": "2026-07-07T15:41:04Z",
+      "provenance": {
+        "creation_timestamp": "2026-07-07T15:41:04Z",
+        "authoring_method": "reference_position_authoring_system",
+        "pipeline_version": "reference-map-authoring-v1",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 1,
+        "validation_state": "pending",
+        "approval_state": "draft",
+        "history": [
+          {
+            "event_type": "create",
+            "timestamp": "2026-07-07T15:41:04Z",
+            "actor": "system",
+            "notes": "Seed sample cell for workflow validation"
+          }
+        ]
+      },
+      "archived": false
+    },
+    {
+      "reference_cell_id": "RC-000012",
+      "edition_id": "za-rtl-2026-01",
+      "page_id": "za-rtl-2026-01-p2",
+      "page_number": 2,
+      "grid_row": 3,
+      "grid_col": 4,
+      "geometry": {
+        "norm_x": 0.66,
+        "norm_y": 0.52,
+        "norm_w": 0.14,
+        "norm_h": 0.16,
+        "norm_cx": 0.73,
+        "norm_cy": 0.6,
+        "rotation_deg": 0.0,
+        "margin": {
+          "top": 0.002,
+          "right": 0.002,
+          "bottom": 0.002,
+          "left": 0.002
+        },
+        "padding": {
+          "top": 0.003,
+          "right": 0.003,
+          "bottom": 0.003,
+          "left": 0.003
+        }
+      },
+      "cell_status": "draft",
+      "approval_state": "draft",
+      "created_at": "2026-07-07T15:41:04Z",
+      "updated_at": "2026-07-07T15:41:04Z",
+      "provenance": {
+        "creation_timestamp": "2026-07-07T15:41:04Z",
+        "authoring_method": "reference_position_authoring_system",
+        "pipeline_version": "reference-map-authoring-v1",
+        "manual_edition": "za-rtl-2026-01",
+        "source_page": 2,
+        "validation_state": "pending",
+        "approval_state": "draft",
+        "history": [
+          {
+            "event_type": "create",
+            "timestamp": "2026-07-07T15:41:04Z",
+            "actor": "system",
+            "notes": "Seed sample cell for workflow validation"
+          }
+        ]
+      },
+      "archived": false
+    }
+  ]
+}

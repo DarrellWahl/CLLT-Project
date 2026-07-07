@@ -1,0 +1,33 @@
+{
+  "rows": 1090,
+  "coded_rows": 0,
+  "described_rows": 0,
+  "legend_codes": 145,
+  "missing_images": [],
+  "missing_metadata_count": 0,
+  "missing_metadata_examples": [],
+  "duplicate_filename_rows": 0,
+  "duplicate_hash_groups": 1,
+  "duplicate_files_total": 3,
+  "duplicate_hash_examples": [
+    [
+      "page1_unknown_187.png",
+      "page4_unknown_069.png",
+      "page4_unknown_072.png",
+      "page4_unknown_094.png"
+    ]
+  ],
+  "codes_not_in_legend": [],
+  "completion_criteria": {
+    "all_signs_extracted_from_manual": true,
+    "stable_filenames": true,
+    "correct_official_code_complete": false,
+    "correct_official_description_complete": false,
+    "duplicates_removed_or_linked": true,
+    "validation_status_recorded": true,
+    "confidence_recorded": true,
+    "metadata_complete": true,
+    "website_assets_renderable": true,
+    "rerun_deterministic": true
+  }
+}

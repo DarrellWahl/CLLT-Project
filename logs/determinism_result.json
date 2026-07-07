@@ -1,0 +1,67 @@
+{
+  "command": "/Users/darrellklaassen/CLLT-Project/.venv311/bin/python3 /Users/darrellklaassen/CLLT-Project/scripts/extract_pipeline.py",
+  "exit_code": 0,
+  "stdout_tail": [
+    "Page 1: extracted 317 logical sign objects",
+    "Page 2: extracted 208 logical sign objects",
+    "Page 3: extracted 323 logical sign objects",
+    "Page 4: extracted 242 logical sign objects",
+    "Page 5 layout analysis only. No sign extraction for page 5."
+  ],
+  "stderr_tail": [],
+  "baseline": {
+    "files": {
+      "metadata/page_1_signs.json": "03d73b628b59745876710dc1f0ced541db46cf76dd6d9376459b6533e1a9252e",
+      "metadata/page_2_signs.json": "4035d25b3740bd97d2b23cc2a3117c861134d24ac9058b68f0dc4ffc5294faab",
+      "metadata/page_3_signs.json": "992d1717a81cd7d09738bbcb591fc5e9c6e007c66482bb1ecde430b0ae1f6454",
+      "metadata/page_4_signs.json": "fe9b33fc2eacc4485bf3fa484a76cf89fb56804940fc4d9a5656090dcd200b2b",
+      "logs/page_1_stats.json": "5e9f2d4066628becd2b931b8fc798a9d0e03eb833d60e5d3a442a9cc2df02480",
+      "logs/page_2_stats.json": "57a702873fcfe8d54f9617ecb73ae0c359aeaf2e75b63a6374f79e580a16dca5",
+      "logs/page_3_stats.json": "6b5e5df4a13a1814ab90ca23bfb6c2bacb6d95cea16bdaa738dfc6f0f7cac029",
+      "logs/page_4_stats.json": "1d0b6ce356af2691f86eee32177a4668f76f1a5585546d78fef93a4cd0e0fa3f",
+      "logs/page_5_stats.json": "55dcf410db4201774c3e0a0c4269334a6c77641639b1dd7e8ddc848bed63bcdd"
+    },
+    "metadata_normalized_hash": {
+      "page_1": "f92980adb2e4bad993227e23ef24b10b71a3d5846c29d34a7b5ac48103d5ff43",
+      "page_2": "692fd9fb83e6bb8fe274b2fc7a2de5aa4a716daabb6264cd0a492b881606daf7",
+      "page_3": "166720e73c5fed2509b09ff253edcc7d121ac5f76e98030f6f3009d3a10e9a0f",
+      "page_4": "afa32612e49416bb59b975433bca75a4eed35cdce3f1b6711c6120e940ce070a"
+    },
+    "counts": {
+      "page_1": 317,
+      "page_2": 208,
+      "page_3": 323,
+      "page_4": 242,
+      "website_rows": 1090
+    }
+  },
+  "after": {
+    "files": {
+      "metadata/page_1_signs.json": "03d73b628b59745876710dc1f0ced541db46cf76dd6d9376459b6533e1a9252e",
+      "metadata/page_2_signs.json": "4035d25b3740bd97d2b23cc2a3117c861134d24ac9058b68f0dc4ffc5294faab",
+      "metadata/page_3_signs.json": "992d1717a81cd7d09738bbcb591fc5e9c6e007c66482bb1ecde430b0ae1f6454",
+      "metadata/page_4_signs.json": "fe9b33fc2eacc4485bf3fa484a76cf89fb56804940fc4d9a5656090dcd200b2b",
+      "logs/page_1_stats.json": "5e9f2d4066628becd2b931b8fc798a9d0e03eb833d60e5d3a442a9cc2df02480",
+      "logs/page_2_stats.json": "57a702873fcfe8d54f9617ecb73ae0c359aeaf2e75b63a6374f79e580a16dca5",
+      "logs/page_3_stats.json": "6b5e5df4a13a1814ab90ca23bfb6c2bacb6d95cea16bdaa738dfc6f0f7cac029",
+      "logs/page_4_stats.json": "1d0b6ce356af2691f86eee32177a4668f76f1a5585546d78fef93a4cd0e0fa3f",
+      "logs/page_5_stats.json": "55dcf410db4201774c3e0a0c4269334a6c77641639b1dd7e8ddc848bed63bcdd"
+    },
+    "metadata_normalized_hash": {
+      "page_1": "f92980adb2e4bad993227e23ef24b10b71a3d5846c29d34a7b5ac48103d5ff43",
+      "page_2": "692fd9fb83e6bb8fe274b2fc7a2de5aa4a716daabb6264cd0a492b881606daf7",
+      "page_3": "166720e73c5fed2509b09ff253edcc7d121ac5f76e98030f6f3009d3a10e9a0f",
+      "page_4": "afa32612e49416bb59b975433bca75a4eed35cdce3f1b6711c6120e940ce070a"
+    },
+    "counts": {
+      "page_1": 317,
+      "page_2": 208,
+      "page_3": 323,
+      "page_4": 242,
+      "website_rows": 1090
+    }
+  },
+  "deterministic_files": true,
+  "deterministic_metadata_normalized": true,
+  "deterministic_counts": true
+}

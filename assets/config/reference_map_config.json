@@ -1,0 +1,50 @@
+{
+  "contract_version": "1.0.0",
+  "builder_version": "1.0.0",
+  "edition": {
+    "edition_id": "za-rtl-2026-01",
+    "source_pdf_path": "assets/pdf/Road Traffic Signs.pdf",
+    "publication_date": "2026-01-01",
+    "status": "draft"
+  },
+  "pages": {
+    "pages_dir": "assets/png/pages",
+    "page_filename_pattern": "page_{page}.png",
+    "include_pages": [1, 2, 3, 4, 5],
+    "render_dpi": 300,
+    "normalization_profile": "v1"
+  },
+  "outputs": {
+    "reference_map_dir": "metadata/reference_map",
+    "manual_editions_file": "manual_editions.json",
+    "pages_file": "pages.json",
+    "reference_cells_file": "reference_cells.json",
+    "reference_positions_file": "reference_positions.json",
+    "id_registry_file": "id_registry.json",
+    "run_manifest_file": "logs/reference_map_run_manifest.json"
+  },
+  "matcher": {
+    "enabled": true,
+    "input_metadata_files": [
+      "metadata/page_1_signs.json",
+      "metadata/page_2_signs.json",
+      "metadata/page_3_signs.json",
+      "metadata/page_4_signs.json"
+    ],
+    "approved_reference_states": [
+      "approved"
+    ],
+    "top_k": 3,
+    "sample_limit": 24,
+    "weights": {
+      "iou": 0.7,
+      "center": 0.2,
+      "area": 0.1,
+      "ocr_bonus": 0.15
+    },
+    "outputs": {
+      "candidate_assignments_file": "metadata/reference_map/candidate_assignments_sample.json",
+      "matcher_manifest_file": "logs/reference_matcher_run_manifest.json"
+    }
+  }
+}

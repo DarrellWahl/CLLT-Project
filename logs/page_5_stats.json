@@ -1,0 +1,17 @@
+{
+  "page": 5,
+  "total_contours": 0,
+  "contours_rejected": 0,
+  "contours_merged": 0,
+  "candidates": 0,
+  "rejected_candidates": 0,
+  "duplicate_removed": 0,
+  "exported_signs": 0,
+  "avg_crop_area": 0.0,
+  "avg_padding": 0.0,
+  "avg_confidence": 0.0,
+  "ocr_enabled": false,
+  "ocr_success_rate": 0.0,
+  "missing_codes": 0,
+  "missing_descriptions": 0
+}

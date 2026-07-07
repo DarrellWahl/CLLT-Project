@@ -1,0 +1,12 @@
+[
+  {
+    "edition_id": "za-rtl-2026-01",
+    "source_pdf_path": "assets/pdf/Road Traffic Signs.pdf",
+    "source_pdf_filename": "Road Traffic Signs.pdf",
+    "source_pdf_sha256": "83bbcbd01641adac5b97edb6238d87acf5711cdf281ae88677bd7e26d07eaf43",
+    "publication_date": "2026-01-01",
+    "status": "draft",
+    "created_at": "2026-07-07T15:40:49Z",
+    "model_version": "1.0.0"
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "pages_dir": "assets/png/pages",
+  "signs_output_dir": "assets/png/signs",
+  "verification_dir": "assets/png/verification",
+  "metadata_dir": "metadata",
+  "logs_dir": "logs",
+  "page_analysis": {
+    "content_threshold": 0.03,
+    "min_content_height_ratio": 0.04,
+    "min_content_width_ratio": 0.28,
+    "header_ignore_ratio": 0.08,
+    "footer_ignore_ratio": 0.05,
+    "page5_column_threshold": 0.10
+  },
+  "detection": {
+    "min_area": 900,
+    "max_area": 300000,
+    "min_side": 28,
+    "max_aspect_ratio": 6.0,
+    "merge_iou": 0.14,
+    "merge_distance": 40,
+    "duplicate_iou": 0.55,
+    "max_candidates": 400,
+    "contour_approx_epsilon": 0.02
+  },
+  "padding": {
+    "top": 0.12,
+    "bottom": 0.20,
+    "left": 0.12,
+    "right": 0.12,
+    "min_pixels": 16,
+    "expand_step": 10,
+    "max_expansion": 160
+  },
+  "ocr": {
+    "enabled": false,
+    "language": "eng",
+    "config": "--psm 6",
+    "confidence_threshold": 60,
+    "code_pattern": "\\b(?:R|W|GS|TR|S|SS|FRD)[A-Z0-9\\-]{1,10}\\b",
+    "description_min_length": 4,
+    "text_margin": 24
+  },
+  "validation": {
+    "confidence_threshold": 95,
+    "max_retries": 3,
+    "min_crop_area": 2500,
+    "max_edge_touch_pixels": 2
+  },
+  "page5": {
+    "layout_mode": "table",
+    "min_column_width": 200,
+    "min_row_height": 32
+  }
+}

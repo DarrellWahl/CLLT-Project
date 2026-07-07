@@ -1,0 +1,270 @@
+[
+  {
+    "path": "scripts/__init__.py",
+    "lines": 1,
+    "imports": [],
+    "functions": [],
+    "classes": []
+  },
+  {
+    "path": "scripts/build_website.py",
+    "lines": 54,
+    "imports": [
+      "json",
+      "re",
+      "shutil",
+      "pathlib (from)"
+    ],
+    "functions": [
+      "humanize_description",
+      "main"
+    ],
+    "classes": []
+  },
+  {
+    "path": "scripts/calibrate_grid.py",
+    "lines": 89,
+    "imports": [
+      "argparse",
+      "json",
+      "sys",
+      "pathlib (from)",
+      "typing (from)",
+      "PIL (from)",
+      "scripts.models.calibration (from)",
+      "scripts.models.grid_def (from)"
+    ],
+    "functions": [
+      "load_image_size",
+      "load_config",
+      "save_config",
+      "main"
+    ],
+    "classes": []
+  },
+  {
+    "path": "scripts/detect_signs.py",
+    "lines": 11,
+    "imports": [
+      "PIL (from)"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  {
+    "path": "scripts/extract_pages.py",
+    "lines": 21,
+    "imports": [
+      "fitz",
+      "pathlib (from)"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  {
+    "path": "scripts/extract_pipeline.py",
+    "lines": 604,
+    "imports": [
+      "csv",
+      "json",
+      "math",
+      "os",
+      "re",
+      "sys",
+      "time",
+      "collections (from)",
+      "dataclasses (from)",
+      "pathlib (from)",
+      "typing (from)",
+      "cv2",
+      "numpy",
+      "PIL (from)"
+    ],
+    "functions": [
+      "load_config",
+      "make_dirs",
+      "deterministic_sort",
+      "box_iou",
+      "clamp_box",
+      "pad_box",
+      "expand_to_enclose",
+      "detect_page_layout",
+      "build_sign_mask",
+      "detect_contour_boxes",
+      "detect_edge_boxes",
+      "merge_boxes",
+      "_distance_between",
+      "reject_false_positives",
+      "build_candidates",
+      "detect_text_blocks",
+      "merge_text_boxes",
+      "nearest_text_to_box",
+      "extract_code_from_text",
+      "border_touching_edge",
+      "validate_candidate",
+      "refine_candidate",
+      "compute_confidence",
+      "remove_duplicate_candidates",
+      "load_font",
+      "draw_verification_image",
+      "build_contact_sheet",
+      "crop_image",
+      "write_metadata",
+      "write_stats",
+      "process_page",
+      "main"
+    ],
+    "classes": [
+      "CropMetadata",
+      "SignCandidate",
+      "ExtractionStats"
+    ]
+  },
+  {
+    "path": "scripts/extract_signs.py",
+    "lines": 176,
+    "imports": [
+      "re",
+      "json",
+      "numpy",
+      "pathlib (from)",
+      "cv2",
+      "PIL (from)",
+      "pytesseract",
+      "csv"
+    ],
+    "functions": [
+      "load_image",
+      "find_sign_boxes",
+      "normalize_boxes",
+      "crop_and_save_boxes",
+      "save_metadata_csv",
+      "ocr_legend_page",
+      "parse_legend_text",
+      "save_json",
+      "main"
+    ],
+    "classes": []
+  },
+  {
+    "path": "scripts/grid_analysis.py",
+    "lines": 139,
+    "imports": [
+      "argparse",
+      "json",
+      "sys",
+      "pathlib (from)",
+      "typing (from)",
+      "PIL (from)",
+      "numpy",
+      "scripts.models.grid_def (from)"
+    ],
+    "functions": [
+      "load_layout",
+      "print_layout_report",
+      "report_image_size",
+      "threshold_image",
+      "project_segments",
+      "analyze_page_layout",
+      "print_analysis_report",
+      "main"
+    ],
+    "classes": []
+  },
+  {
+    "path": "scripts/map_signs.py",
+    "lines": 88,
+    "imports": [
+      "json",
+      "csv",
+      "pathlib (from)"
+    ],
+    "functions": [
+      "load_legend",
+      "load_metadata",
+      "build_code_sequence",
+      "map_crops_to_codes",
+      "save_mappings",
+      "main"
+    ],
+    "classes": []
+  },
+  {
+    "path": "scripts/models/__init__.py",
+    "lines": 5,
+    "imports": [
+      "grid_def (from)",
+      "calibration (from)"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  {
+    "path": "scripts/models/calibration.py",
+    "lines": 110,
+    "imports": [
+      "dataclasses (from)",
+      "pathlib (from)",
+      "typing (from)",
+      "grid_def (from)"
+    ],
+    "functions": [],
+    "classes": [
+      "CalibrationPoint",
+      "GridCalibration"
+    ]
+  },
+  {
+    "path": "scripts/models/grid_def.py",
+    "lines": 160,
+    "imports": [
+      "dataclasses (from)",
+      "pathlib (from)",
+      "typing (from)"
+    ],
+    "functions": [],
+    "classes": [
+      "GridRegion",
+      "PageLayout"
+    ]
+  },
+  {
+    "path": "scripts/parse_legend.py",
+    "lines": 85,
+    "imports": [
+      "json",
+      "re",
+      "pathlib (from)",
+      "fitz"
+    ],
+    "functions": [
+      "normalize_line",
+      "split_codes",
+      "is_valid_description",
+      "parse_block_text",
+      "main"
+    ],
+    "classes": []
+  },
+  {
+    "path": "scripts/preview_grid.py",
+    "lines": 118,
+    "imports": [
+      "argparse",
+      "json",
+      "sys",
+      "pathlib (from)",
+      "typing (from)",
+      "PIL (from)",
+      "scripts.models.grid_def (from)"
+    ],
+    "functions": [
+      "load_layout",
+      "load_font",
+      "draw_label",
+      "draw_grid_preview",
+      "main"
+    ],
+    "classes": []
+  }
+]

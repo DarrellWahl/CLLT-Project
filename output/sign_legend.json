@@ -1,0 +1,674 @@
+[
+  {
+    "code": "R1",
+    "description": "Stop sign"
+  },
+  {
+    "code": "R1.1",
+    "description": "St opsign"
+  },
+  {
+    "code": "R1.2",
+    "description": "Stop/Yield"
+  },
+  {
+    "code": "R1.3",
+    "description": "3 -Waystopsig n"
+  },
+  {
+    "code": "R1.4",
+    "description": "4 -Waystopsig n"
+  },
+  {
+    "code": "R1.5",
+    "description": "St op /Gosig n"
+  },
+  {
+    "code": "R2",
+    "description": "Yie ldsig n"
+  },
+  {
+    "code": "R2.1",
+    "description": "Yie ldtopedestrianssig n"
+  },
+  {
+    "code": "R2.2",
+    "description": "Yie ldatmi ni - c ircle sign"
+  },
+  {
+    "code": "R3",
+    "description": "Noentry sign"
+  },
+  {
+    "code": "R5",
+    "description": "Pedestrianprioritysig n"
+  },
+  {
+    "code": "R6",
+    "description": "Yie ldtooncomingtra fficsig n"
+  },
+  {
+    "code": "R101",
+    "description": "Mi nim um Speedsig n"
+  },
+  {
+    "code": "R102",
+    "description": "Ve hiclesexceeding ma ss onlysig n"
+  },
+  {
+    "code": "R103",
+    "description": "Keep left sign"
+  },
+  {
+    "code": "R104",
+    "description": "Keep right sign"
+  },
+  {
+    "code": "R105",
+    "description": "Proceed left only sign"
+  },
+  {
+    "code": "R106",
+    "description": "Proceed right only sign"
+  },
+  {
+    "code": "R107",
+    "description": "Proceed straight only sign"
+  },
+  {
+    "code": "R108",
+    "description": "Turn left sign"
+  },
+  {
+    "code": "R109",
+    "description": "Turn right sign"
+  },
+  {
+    "code": "R110",
+    "description": "Pedestrians only sign"
+  },
+  {
+    "code": "R111",
+    "description": "Pedal cycles only sign"
+  },
+  {
+    "code": "R116",
+    "description": "Motor cycles only sign"
+  },
+  {
+    "code": "R117",
+    "description": "Motor cars only sign"
+  },
+  {
+    "code": "R118",
+    "description": "Taxis only sign"
+  },
+  {
+    "code": "R119",
+    "description": "Minibuses only sign"
+  },
+  {
+    "code": "R120",
+    "description": "Midibus only sign"
+  },
+  {
+    "code": "R121",
+    "description": "Buses only sign"
+  },
+  {
+    "code": "R122",
+    "description": "Delivery vehicles only sign"
+  },
+  {
+    "code": "R123",
+    "description": "Goods vehicles only sign"
+  },
+  {
+    "code": "R124",
+    "description": "Goods vehicles over indicated GVM only sign"
+  },
+  {
+    "code": "R125",
+    "description": "Construction vehicles only sign"
+  },
+  {
+    "code": "R126",
+    "description": "Vehicles conveying dangerous goods only sign"
+  },
+  {
+    "code": "R127",
+    "description": "Abnormal vehicles only sign"
+  },
+  {
+    "code": "R128",
+    "description": "Rickshaws only sign"
+  },
+  {
+    "code": "R129",
+    "description": "Tour buses only sign"
+  },
+  {
+    "code": "R130",
+    "description": "Agricultural vehicles only sign"
+  },
+  {
+    "code": "R131",
+    "description": "Animal-drawn vehicles only sign"
+  },
+  {
+    "code": "R132",
+    "description": "Pay toll sign"
+  },
+  {
+    "code": "R133",
+    "description": "Switch head lamps on sign"
+  },
+  {
+    "code": "R134",
+    "description": "Buses & minibuses only sign"
+  },
+  {
+    "code": "R135",
+    "description": "Buses & midibuses only sign"
+  },
+  {
+    "code": "R136",
+    "description": "Buses, midibuses & minibuses only sign"
+  },
+  {
+    "code": "R137",
+    "description": "Roundabout sign"
+  },
+  {
+    "code": "R138",
+    "description": "Trams only sign"
+  },
+  {
+    "code": "R139",
+    "description": "Buses & trams only sign"
+  },
+  {
+    "code": "R140",
+    "description": "Buses, trams & minibuses only sign"
+  },
+  {
+    "code": "R201",
+    "description": "Speed limit sign"
+  },
+  {
+    "code": "R202",
+    "description": "Mass limit sign"
+  },
+  {
+    "code": "R203",
+    "description": "Axle massload limit sign"
+  },
+  {
+    "code": "R204",
+    "description": "Height limit sign"
+  },
+  {
+    "code": "R205",
+    "description": "Length limit sign"
+  },
+  {
+    "code": "R206",
+    "description": "Excessive noise prohibited sign"
+  },
+  {
+    "code": "R207",
+    "description": "Hitch-hiking prohibited sign"
+  },
+  {
+    "code": "R208",
+    "description": "Unauthorized vehicles prohibited sign"
+  },
+  {
+    "code": "R209",
+    "description": "Left turn ahead prohibited sign"
+  },
+  {
+    "code": "R210",
+    "description": "Right turn ahead prohibited sign"
+  },
+  {
+    "code": "R211",
+    "description": "Left turn prohibited sign"
+  },
+  {
+    "code": "R212",
+    "description": "Right turn prohibited sign"
+  },
+  {
+    "code": "R213",
+    "description": "U-turn prohibited sign"
+  },
+  {
+    "code": "R214",
+    "description": "Overtaking prohibited sign"
+  },
+  {
+    "code": "R215",
+    "description": "Overtaking by goods vehicle prohibited sign"
+  },
+  {
+    "code": "R216",
+    "description": "Parking prohibited sign"
+  },
+  {
+    "code": "R217",
+    "description": "Stopping prohibited sign"
+  },
+  {
+    "code": "R218",
+    "description": "Pedestrian prohibited sign"
+  },
+  {
+    "code": "R219",
+    "description": "Pedal cycle prohibited sign"
+  },
+  {
+    "code": "R220",
+    "description": "Pedal cycle & pedestrian prohibited sign"
+  },
+  {
+    "code": "R222",
+    "description": "Motor cycle prohibited sign"
+  },
+  {
+    "code": "R223",
+    "description": "Motor car prohibited sign"
+  },
+  {
+    "code": "R224",
+    "description": "Taxi prohibited sign"
+  },
+  {
+    "code": "R225",
+    "description": "Minibus prohibited sign"
+  },
+  {
+    "code": "R226",
+    "description": "Midibus prohibited sign"
+  },
+  {
+    "code": "R227",
+    "description": "Bus prohibited sign"
+  },
+  {
+    "code": "R228",
+    "description": "Delivery vehicle prohibited sign"
+  },
+  {
+    "code": "R229",
+    "description": "Goods vehicle prohibited sign"
+  },
+  {
+    "code": "R230",
+    "description": "Goods vehicle over indicated GVM prohibited sign"
+  },
+  {
+    "code": "R231",
+    "description": "Construction vehicle prohibited sign"
+  },
+  {
+    "code": "R232",
+    "description": "Vehicle conveying dangerous goods prohibited sign"
+  },
+  {
+    "code": "R233",
+    "description": "Abnormal vehicle prohibited sign"
+  },
+  {
+    "code": "R234",
+    "description": "Rickshaw prohibited sign"
+  },
+  {
+    "code": "R235",
+    "description": "Tour bus prohibited sign"
+  },
+  {
+    "code": "R236",
+    "description": "Agricultural vehicle prohibited sign"
+  },
+  {
+    "code": "R237",
+    "description": "Animal-drawn vehicle prohibited sign"
+  },
+  {
+    "code": "R238",
+    "description": "Horses & riders prohibited sign"
+  },
+  {
+    "code": "R239",
+    "description": "Width limit sign"
+  },
+  {
+    "code": "R240",
+    "description": "Towed vehicles prohibited sign"
+  },
+  {
+    "code": "R241",
+    "description": "Hawkers prohibited sign"
+  },
+  {
+    "code": "R301",
+    "description": "Bus reservation sign"
+  },
+  {
+    "code": "R301",
+    "description": "-P Bus parking reservation sign"
+  },
+  {
+    "code": "R302",
+    "description": "Bus lane reservation sign"
+  },
+  {
+    "code": "R303",
+    "description": "Bus lane reservation begins sign"
+  },
+  {
+    "code": "R304",
+    "description": "Pedal cycle lane reservation sign"
+  },
+  {
+    "code": "R304",
+    "description": "-P Pedal cycle parking reservation sign"
+  },
+  {
+    "code": "R305",
+    "description": "-P Parking reservation sign"
+  },
+  {
+    "code": "R306",
+    "description": "-P Limited parking reservation sign"
+  },
+  {
+    "code": "R307",
+    "description": "Motor cycle reservation sign"
+  },
+  {
+    "code": "R307",
+    "description": "-P Motor cycle parking reservation sign"
+  },
+  {
+    "code": "R308",
+    "description": "Motor car reservation sign"
+  },
+  {
+    "code": "R308",
+    "description": "-P Motor car parking reservation sign"
+  },
+  {
+    "code": "R309",
+    "description": "Taxi reservation sign"
+  },
+  {
+    "code": "R309",
+    "description": "-P Taxi parking reservation sign"
+  },
+  {
+    "code": "R310",
+    "description": "Minibus reservation sign"
+  },
+  {
+    "code": "R310",
+    "description": "-P Minibus parking reservation sign"
+  },
+  {
+    "code": "R311",
+    "description": "Midibus reservation sign"
+  },
+  {
+    "code": "R311",
+    "description": "-P Midibus parking reservation sign"
+  },
+  {
+    "code": "R312",
+    "description": "Delivery vehicle reservation sign"
+  },
+  {
+    "code": "R312",
+    "description": "-P Delivery vehicle parking reservation sign"
+  },
+  {
+    "code": "R313",
+    "description": "Goods vehicle reservation sign"
+  },
+  {
+    "code": "R313",
+    "description": "-P Goods vehicle parking reservation sign"
+  },
+  {
+    "code": "R314",
+    "description": "Goods vehicle over indicated GVM reservation sign"
+  },
+  {
+    "code": "R314",
+    "description": "-P Goods vehicle over indicated GVM parking reservation sign"
+  },
+  {
+    "code": "R315",
+    "description": "Construction vehicle reservation sign"
+  },
+  {
+    "code": "R315",
+    "description": "-P Construction vehicle parking reservation sign"
+  },
+  {
+    "code": "R316",
+    "description": "Vehicle conveying dangerous goods reservation sign"
+  },
+  {
+    "code": "R316",
+    "description": "-P Vehicle conveying dangerous goods parking reservation sign"
+  },
+  {
+    "code": "R317",
+    "description": "Abnormal vehicle reservation sign"
+  },
+  {
+    "code": "R317",
+    "description": "-P Abnormal vehicle parking reservation sign"
+  },
+  {
+    "code": "R318",
+    "description": "Rickshaw reservation sign"
+  },
+  {
+    "code": "R318",
+    "description": "-P Rickshaw parking reservation sign"
+  },
+  {
+    "code": "R319",
+    "description": "Tour bus reservation sign"
+  },
+  {
+    "code": "R319",
+    "description": "-P Tour bus parking reservation sign"
+  },
+  {
+    "code": "R320",
+    "description": "High occupancy vehicle reservation sign"
+  },
+  {
+    "code": "R320",
+    "description": "-P High occupancy vehicle parking reservation sign"
+  },
+  {
+    "code": "R321",
+    "description": "Emergency vehicle reservation sign"
+  },
+  {
+    "code": "R321",
+    "description": "-P Emergency vehicle parking reservation sign"
+  },
+  {
+    "code": "R322",
+    "description": "Police vehicle reservation sign"
+  },
+  {
+    "code": "R322",
+    "description": "-P Police vehicle parking reservation sign"
+  },
+  {
+    "code": "R323",
+    "description": "Disabled persons vehicle reservation sign"
+  },
+  {
+    "code": "R323",
+    "description": "-P Disabled persons vehicle parking reservation sign"
+  },
+  {
+    "code": "R324",
+    "description": "Authorized vehicle reservation sign"
+  },
+  {
+    "code": "R324",
+    "description": "-P Authorized vehicle parking reservation sign"
+  },
+  {
+    "code": "R325",
+    "description": "Bus stop reservation sign"
+  },
+  {
+    "code": "R326",
+    "description": "Minibus stop reservation sign"
+  },
+  {
+    "code": "R327",
+    "description": "Bus & minibus reservation sign"
+  },
+  {
+    "code": "R327",
+    "description": "-P Bus & minibus parking reservation sign"
+  },
+  {
+    "code": "R328",
+    "description": "Bus & minibus lane reservation sign"
+  },
+  {
+    "code": "R329",
+    "description": "Bus & minibus lane reservation begins sign"
+  },
+  {
+    "code": "R330",
+    "description": "Bus & midibus reservation sign"
+  },
+  {
+    "code": "R330",
+    "description": "-P Bus & midibus parking reservation sign"
+  },
+  {
+    "code": "R331",
+    "description": "Bus & midibus lane reservation sign"
+  },
+  {
+    "code": "R332",
+    "description": "Bus & midibus lane reservation begins sign"
+  },
+  {
+    "code": "R333",
+    "description": "Bus, midibus & minibus reservation sign"
+  },
+  {
+    "code": "R333",
+    "description": "-P Bus, midibus & minibus parking reservation sign"
+  },
+  {
+    "code": "R334",
+    "description": "Bus, midibus & minibus lane reservation sign"
+  },
+  {
+    "code": "R335",
+    "description": "Bus, midibus & minibus lane reservation begins sign"
+  },
+  {
+    "code": "R336",
+    "description": "High occupancy vehicle lane reservation sign"
+  },
+  {
+    "code": "R337",
+    "description": "High occupancy vehicle lane reservation begins sign"
+  },
+  {
+    "code": "R338",
+    "description": "Tram reservation sign"
+  },
+  {
+    "code": "R339",
+    "description": "Tram lane reservation sign"
+  },
+  {
+    "code": "R340",
+    "description": "Tram lane reservation begins sign"
+  },
+  {
+    "code": "R341",
+    "description": "Tram stop reservation sign"
+  },
+  {
+    "code": "R342",
+    "description": "Bus & tram reservation sign"
+  },
+  {
+    "code": "R343",
+    "description": "Bus & tram lane reservation sign"
+  },
+  {
+    "code": "R344",
+    "description": "Bus & tram lane reservation begins sign"
+  },
+  {
+    "code": "R345",
+    "description": "Bus, minibus & tram reservation sign"
+  },
+  {
+    "code": "R346",
+    "description": "Bus, minibus & tram lane reservation sign"
+  },
+  {
+    "code": "R347",
+    "description": "Bus, minibus & tram lane reservation begins sign"
+  },
+  {
+    "code": "R348",
+    "description": "Bus lane right reservation sign"
+  },
+  {
+    "code": "R349",
+    "description": "Bus & minibus lane right reservation sign"
+  },
+  {
+    "code": "R350",
+    "description": "Bus & tram lane right reservation sign"
+  },
+  {
+    "code": "R351",
+    "description": "Bus, minibus & tram lane right reservation sign"
+  },
+  {
+    "code": "R352",
+    "description": "High occupancy vehicle lane right reservation sign"
+  },
+  {
+    "code": "R353",
+    "description": "Authorized passenger transport vehicle lane reservation sign"
+  },
+  {
+    "code": "R354",
+    "description": "Authorized passenger transport vehicle lane right reservation"
+  },
+  {
+    "code": "R401",
+    "description": "Dual-carriageway freeway begins sign"
+  },
+  {
+    "code": "R402",
+    "description": "Single-carriageway freeway begins sign"
+  },
+  {
+    "code": "R403",
+    "description": "Woonerf sign"
+  }
+]

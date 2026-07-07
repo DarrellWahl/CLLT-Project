@@ -1,0 +1,18 @@
+{
+  "run_type": "reference_map_builder",
+  "builder_version": "1.0.0",
+  "contract_version": "1.0.0",
+  "ran_at": "2026-07-07T15:40:49Z",
+  "edition_id": "za-rtl-2026-01",
+  "source_pdf_path": "assets/pdf/Road Traffic Signs.pdf",
+  "source_pdf_sha256": "83bbcbd01641adac5b97edb6238d87acf5711cdf281ae88677bd7e26d07eaf43",
+  "pages_count": 5,
+  "reference_positions_count": 0,
+  "outputs": {
+    "manual_editions": "metadata/reference_map/manual_editions.json",
+    "pages": "metadata/reference_map/pages.json",
+    "reference_cells": "metadata/reference_map/reference_cells.json",
+    "reference_positions": "metadata/reference_map/reference_positions.json",
+    "id_registry": "metadata/reference_map/id_registry.json"
+  }
+}
